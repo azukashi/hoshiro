@@ -4,9 +4,9 @@ An REST API application to get data about Virtual YouTubers.
 
 ## Available Routes
 
-| Route           | Method | Parameters | Required |
-| --------------- | ------ | ---------- | -------- |
-| `/id`           | GET    | -          | -        |
-| `/id/active`    | GET    | -          | -        |
-| `/id/graduated` | GET    | -          | -        |
-| `/id/:handle`   | GET    | `:handle`  | Yes      |
+| Route           | Method | Parameters | Required | Examples               | Region |
+| --------------- | ------ | ---------- | -------- | ---------------------- | ------ |
+| `/id`           | GET    | -          | -        | `/id`                  | 🇮🇩     |
+| `/id/active`    | GET    | -          | -        | `/id/active`           | 🇮🇩     |
+| `/id/graduated` | GET    | -          | -        | `/id/graduated`        | 🇮🇩     |
+| `/id/:handle`   | GET    | `/:handle` | Yes      | `/id/@amayaclorentine` | 🇮🇩     |
