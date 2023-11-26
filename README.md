@@ -2,6 +2,8 @@
 
 An REST API application to get data about Virtual YouTubers.
 
+Base URL: http://localhost:3000/api
+
 ## Available Routes
 
 | Route           | Method | Parameters | Required | Examples               | Region |
