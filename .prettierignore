@@ -1,0 +1,6 @@
+# Build
+dist/
+
+# Generated Lockfile
+pnpm-lock.yaml
+package-lock.json
