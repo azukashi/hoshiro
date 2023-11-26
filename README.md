@@ -19,4 +19,4 @@ Thanks to [bun](https://bun.sh) for their super-fast runtime and [GitHub Codespa
 
 ## License
 
-This project is licensed under [MIT License](?tab=MIT-1-ov-file).
+This project is licensed under [MIT License](./LICENSE).
