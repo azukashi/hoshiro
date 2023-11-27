@@ -1,0 +1,2901 @@
+[
+  {
+    "name": "Liliana Vampaia Ch. 吸血鬼 リリアナ【MyHolo TV】",
+    "personality": "Half-vampire",
+    "birthdate": "6-Sep",
+    "group": "MyHolo TV",
+    "status": "ACTIVE",
+    "handle": "@lilianavampaiachannel"
+  },
+  {
+    "name": "ADC Vr",
+    "personality": "Tanned Dragon Girl",
+    "birthdate": "18-Feb",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@adcvr"
+  },
+  {
+    "name": "Oumiya Emma / 大宮エマ [PRISM Project]",
+    "personality": "Final Dungeon Boss",
+    "birthdate": "24-Jul",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@oumiyaemma"
+  },
+  {
+    "name": "AceCronosz",
+    "personality": "VRTuber",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@acecronosz"
+  },
+  {
+    "name": "Remilia Ch. レミリア・ネフィス 【Phase Connect】",
+    "personality": "Chuuni Nephilim",
+    "birthdate": "1-Nov",
+    "group": "Phase Connect",
+    "status": "ACTIVE",
+    "handle": "@remilianephys"
+  },
+  {
+    "name": "涼月アニャ Suzutuki Anya Ch.",
+    "birthdate": "8-Dec",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@suzutukianya"
+  },
+  {
+    "name": "Kurumi Ch. 【Project Kavvaii】",
+    "personality": "Hermes' apprentice",
+    "birthdate": "18-Sep",
+    "group": "-",
+    "status": "GRADUATED",
+    "handle": "@aozorakurumi"
+  },
+  {
+    "name": "Lunaris Urufi Ch. 人狼 ルナリス【MyHolo TV】",
+    "personality": "Werewolf",
+    "birthdate": "20-Jan",
+    "group": "MyHolo TV",
+    "status": "ACTIVE",
+    "handle": "@lunarisurufi"
+  },
+  {
+    "name": "Zephyrianna Ch.",
+    "personality": "Space Bird",
+    "birthdate": "12-Sep",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@zephyriannach"
+  },
+  {
+    "name": "Inori Ch.秋月イノリ",
+    "personality": "Multilingual Illustrator",
+    "birthdate": "7-Sep",
+    "group": "Stardust Live",
+    "status": "ACTIVE",
+    "handle": "@akitsukiinori"
+  },
+  {
+    "name": "Moon Jelly",
+    "personality": "Alien Anglerfish",
+    "birthdate": "15-Feb",
+    "group": "-",
+    "status": "GRADUATED",
+    "handle": "@moonjelly"
+  },
+  {
+    "name": "hamsktar",
+    "personality": "A 17cm hamster from outer space!",
+    "birthdate": "25-Apr",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@hamsktar"
+  },
+  {
+    "name": "ManameBin",
+    "personality": "Catboy",
+    "birthdate": "28-Sep",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@manamebin7962"
+  },
+  {
+    "name": "Knight Magma VTuber",
+    "personality": "Immortal Knight",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@knightmagmavtuber6131"
+  },
+  {
+    "name": "Aruri Ch. アルリ 🗝️🎀",
+    "personality": "Wind up Doll",
+    "birthdate": "18-Sep",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@auregaliaaruri"
+  },
+  {
+    "name": "mifflue",
+    "personality": "Magical Girl",
+    "birthdate": "26-Nov",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@mifflue"
+  },
+  {
+    "name": "Mikazuki Mai 【Project Kavvaii】",
+    "personality": "Witch Hunter",
+    "birthdate": "3-Dec",
+    "group": "KAVVAII",
+    "status": "ACTIVE",
+    "handle": "@mikazukimaich"
+  },
+  {
+    "name": "Rumi Naita 【ALTERLY】",
+    "personality": "Half-Kitsune Half-Oni",
+    "birthdate": "6-Dec",
+    "group": "Alterly",
+    "status": "ACTIVE",
+    "handle": "@ruminaita-alterly"
+  },
+  {
+    "name": "Momoiro Kohi Ch. 桃色こひ",
+    "personality": "Male Cyberpunk",
+    "birthdate": "10-Feb",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@momoirokohi"
+  },
+  {
+    "name": "Yamizuki Fuyu 闇月ふゆ Ch.",
+    "personality": "Military Lion",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@yamizukifuyuch"
+  },
+  {
+    "name": "Liola Ch.リオーラ 【MyHolo TV】",
+    "personality": "Theia's Maiden",
+    "birthdate": "7-Mar",
+    "group": "MyHolo TV",
+    "status": "ACTIVE",
+    "handle": "@liolalightbringer"
+  },
+  {
+    "name": "Haku VT KucengVA",
+    "personality": "Haku is an asmr artist wth that is shaped like cat ears.",
+    "birthdate": "22-Mar",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@hakuvt"
+  },
+  {
+    "name": "Rui Ch. 三森ルイ",
+    "personality": "Singing Elf",
+    "birthdate": "1-Jun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@mimorirui"
+  },
+  {
+    "name": "TheChibChibi",
+    "personality": "Live2D Artist",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@thechibchibi"
+  },
+  {
+    "name": "Aiiruna・Swanamii",
+    "personality": "Creator / Goddess / Duck",
+    "birthdate": "4-Sep",
+    "group": "Vsanse",
+    "status": "ACTIVE",
+    "handle": "@aiirunamii"
+  },
+  {
+    "name": "Laine Channel",
+    "personality": "Kusa Messenger",
+    "birthdate": "12-Jul",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@lainechannel"
+  },
+  {
+    "name": "蕾雅Rhea Corey Ch.",
+    "personality": "Witch",
+    "birthdate": "5-Sep",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@rheacoreych"
+  },
+  {
+    "name": "En ch.",
+    "personality": "-",
+    "birthdate": "-",
+    "group": "Stardust Live",
+    "status": "ACTIVE",
+    "handle": "@ench0528"
+  },
+  {
+    "name": "Furai / フライ千チャンネル",
+    "personality": "Illustrator/Animator",
+    "birthdate": "25-Dec",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@furai6806"
+  },
+  {
+    "name": "Raeyxia",
+    "personality": "Trendsetting Artist",
+    "birthdate": "19-Sep",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@raeyxia"
+  },
+  {
+    "name": "Chocohana Mynthiaミンティア",
+    "personality": "Wifi Mahou Shoujo",
+    "birthdate": "27-Oct",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@chocohanamynthia"
+  },
+  {
+    "name": "HiraMafu .ch",
+    "personality": "Mixer - Youtaite",
+    "birthdate": "4-Dec",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@hiramafuch"
+  },
+  {
+    "name": "Herozet Ch. 赤い月",
+    "personality": "Red Moon Shark",
+    "birthdate": "4-Jul",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@herozetch"
+  },
+  {
+    "name": "Shimotori Rico Ch. 霜鸟リコ",
+    "personality": "Long-Tailed Tit",
+    "birthdate": "13-May",
+    "group": "PRRU",
+    "status": "ACTIVE",
+    "handle": "@shimotoririco"
+  },
+  {
+    "name": "神無月米哈魯",
+    "personality": "Neko-slime",
+    "birthdate": "22-Oct",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@kannazukimiharu"
+  },
+  {
+    "name": "Blessed Dainty Ch.",
+    "personality": "Bear",
+    "birthdate": "17-Jun",
+    "group": "Elysium Forest",
+    "status": "ACTIVE",
+    "handle": "@blesseddainty"
+  },
+  {
+    "name": "Butter Ch. VA",
+    "personality": "Android",
+    "birthdate": "30-Nov",
+    "group": "ArkV",
+    "status": "ACTIVE",
+    "handle": "@butterokadava"
+  },
+  {
+    "name": "Eri James",
+    "personality": "Underpaid Graphics Designer",
+    "birthdate": "10-Aug",
+    "group": "Virtual Scape",
+    "status": "ACTIVE",
+    "handle": "@erichannelvt"
+  },
+  {
+    "name": "慕晴MuQing【SODAART】",
+    "personality": "Demon, Teahouse Owner",
+    "birthdate": "11-Jun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@muqing_official"
+  },
+  {
+    "name": "Farah Adiba Ch.",
+    "personality": "Animator",
+    "birthdate": "12-Sep",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@farahadibavt"
+  },
+  {
+    "name": "Renneedhealing",
+    "personality": "Niphilim",
+    "birthdate": "7-Apr",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@renneedhealing"
+  },
+  {
+    "name": "Grind Misfortune Ch.",
+    "personality": "Office Employees",
+    "birthdate": "13-Sep",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@grindmisfortunech"
+  },
+  {
+    "name": "Slayza V. Y",
+    "personality": "Vroid Amateur Artist",
+    "birthdate": "4-May",
+    "group": "Tadano Family",
+    "status": "ACTIVE",
+    "handle": "@slayzavy"
+  },
+  {
+    "name": "bakakyozaki 虚ザキ",
+    "personality": "Ordinary Person",
+    "birthdate": "30-Aug",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@bakakyozaki"
+  },
+  {
+    "name": "Elazul Roy Ch. ロイ エラズル【The Jungle Tavern】",
+    "personality": "Engineer - Gamer",
+    "birthdate": "12-Aug",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@elazulroy"
+  },
+  {
+    "name": "Pyon ch. 南島ピオン",
+    "personality": "Neko Tenshi",
+    "birthdate": "22-Apr",
+    "group": "PRRU",
+    "status": "ACTIVE",
+    "handle": "@mimishimapyon"
+  },
+  {
+    "name": "Sushiya",
+    "personality": "Forever Teen",
+    "birthdate": "24-Nov",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@sushiyaveryrealaccount"
+  },
+  {
+    "name": "FuzzyFiz Ch.",
+    "personality": "0 Sen Sussy Vtuber",
+    "birthdate": "18-Sep",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@fiz_fuzzy"
+  },
+  {
+    "name": "Shino Kitsune Ch. 狐シーノ",
+    "personality": "White Fox | Animator",
+    "birthdate": "30-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@shinokitsunech"
+  },
+  {
+    "name": "Hezaki Ch.鬣崎ミナミ",
+    "personality": "Hyena",
+    "birthdate": "13-Jul",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@hezakich"
+  },
+  {
+    "name": "Venice ベニス【莉恩】",
+    "personality": "Vampire Neko Girl",
+    "birthdate": "26-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@venicec"
+  },
+  {
+    "name": "NAGi ch. 七星ナギ",
+    "personality": "Vsinger",
+    "birthdate": "17-Feb",
+    "group": "Isekai Guild",
+    "status": "ACTIVE",
+    "handle": "@nagich"
+  },
+  {
+    "name": "Ryamal EXP",
+    "personality": "Video Editor",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@ryamalexperience"
+  },
+  {
+    "name": "KoShiNa Ch.",
+    "personality": "Unknown",
+    "birthdate": "6-Jun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@koshinach"
+  },
+  {
+    "name": "Minoru Ito-Kun Ch.",
+    "personality": "Multiverse Traveler",
+    "birthdate": "3-Jun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@minoruitokunnya"
+  },
+  {
+    "name": "Eisu",
+    "personality": "Superhero",
+    "birthdate": "26-Mar",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@eisu"
+  },
+  {
+    "name": "YOZER and XAS | Twin VTuber",
+    "personality": "Designer and Animator",
+    "birthdate": "7-Jul",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@yozerandxas"
+  },
+  {
+    "name": "Miku Ch. 猫宮ミク",
+    "personality": "Kitty Maid Cafe",
+    "birthdate": "24-Dec",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@nekomiyamiku"
+  },
+  {
+    "name": "Elfie vers Amastacia⌛エルフィ・ヴァース・アマスタシア",
+    "personality": "Elfie mago is a memory loss Elf",
+    "birthdate": "18-Apr",
+    "group": "Project Orbit",
+    "status": "ACTIVE",
+    "handle": "@elfiemago"
+  },
+  {
+    "name": "𝐂𝐎𝐃𝐄-𝟎𝟗 (𝐍𝐀𝐑𝐔)",
+    "personality": "-",
+    "birthdate": "9-Jun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@narucode09"
+  },
+  {
+    "name": "Asora Hanabi",
+    "personality": "Living Doll",
+    "birthdate": "31-Oct",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@asorahanabi"
+  },
+  {
+    "name": "Aika Ch. 只野あいか",
+    "personality": "A.I Idol",
+    "birthdate": "2-Dec",
+    "group": "Tadano Family",
+    "status": "ACTIVE",
+    "handle": "@tadanoaika"
+  },
+  {
+    "name": "Rosalina Kuroe",
+    "personality": "Battle Maid",
+    "birthdate": "11-Nov",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@rosalinakuroe"
+  },
+  {
+    "name": "Hypurin Ch.",
+    "personality": "Freelancer Artist",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@hypurin"
+  },
+  {
+    "name": "Elthea Notes エルティア",
+    "personality": "Manager",
+    "birthdate": "18-Jun",
+    "group": "VGakuenLIVE",
+    "status": "ACTIVE",
+    "handle": "@elthea_notes"
+  },
+  {
+    "name": "Nekoyanaki Necko Ch. ネクコ【IVC】",
+    "personality": "Half-Cat",
+    "birthdate": "9-Jul",
+    "group": "IVC",
+    "status": "ACTIVE",
+    "handle": "@neckonyan"
+  },
+  {
+    "name": "APXDMN Ch.頂点大門チャネル",
+    "personality": "Interdimensional Program",
+    "birthdate": "16-Sep",
+    "group": "VGakuenLIVE",
+    "status": "ACTIVE",
+    "handle": "@apxdmn"
+  },
+  {
+    "name": "時無悠人 Hiroto Ch.",
+    "personality": "-",
+    "birthdate": "20-Jun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@tokinahiroto"
+  },
+  {
+    "name": "Lium WinterField_Ch",
+    "personality": "Soul Checker from Hell",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@liumwinterfield_ch670"
+  },
+  {
+    "name": "Aki Hyuzu Ch. 『OtaFuseVT』",
+    "personality": "Part-Time Model",
+    "birthdate": "3-Sep",
+    "group": "OtaFuse",
+    "status": "ACTIVE",
+    "handle": "@akihyuzuch.otafusevt8036"
+  },
+  {
+    "name": "Rita Saginomiya Ch. / リタ鷺ノ宮",
+    "personality": "Babiniku Fox",
+    "birthdate": "24-Sep",
+    "group": "Tadano Family",
+    "status": "ACTIVE",
+    "handle": "@ritasaginomiya"
+  },
+  {
+    "name": "ICHIROKU一六",
+    "personality": "Deer - Musician",
+    "birthdate": "30-Mar",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@ichiroku16_vt"
+  },
+  {
+    "name": "Shiori Channel",
+    "personality": "Cat Cafe Owner",
+    "birthdate": "10-Jul",
+    "group": "VGakuenLIVE",
+    "status": "ACTIVE",
+    "handle": "@shiorichannel"
+  },
+  {
+    "name": "Kurisu Kowa Ch.",
+    "personality": "Cute Little Nian",
+    "birthdate": "15-Feb",
+    "group": "Projek Hikayat",
+    "status": "ACTIVE",
+    "handle": "@kurisukowach."
+  },
+  {
+    "name": "KonokiCh.此木ちゃい",
+    "personality": "Black Shiba Inu",
+    "birthdate": "24-Oct",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@konokichai"
+  },
+  {
+    "name": "yueho Ch",
+    "personality": "Yueho",
+    "birthdate": "12-Dec",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@yuehoch"
+  },
+  {
+    "name": "Neonna Ch",
+    "personality": "Starborn",
+    "birthdate": "7-Apr",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@neonnach"
+  },
+  {
+    "name": "Tsurugi剑城",
+    "personality": "White-collar Worker NPC",
+    "birthdate": "7-Feb",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@tsurugi_akr6"
+  },
+  {
+    "name": "Fishisverytall MY Vtuber 🐟 (Graduated)",
+    "personality": "Idol",
+    "birthdate": "15-Nov",
+    "group": "-",
+    "status": "GRADUATED",
+    "handle": "@fishisverytall"
+  },
+  {
+    "name": "Bluce Ch.夏犬布魯斯",
+    "personality": "Shiba Inu",
+    "birthdate": "24-Apr",
+    "group": "Stardust Live",
+    "status": "ACTIVE",
+    "handle": "@natsuinubluce"
+  },
+  {
+    "name": "Mia Ch. Nmia Gaming",
+    "personality": "Short-Sighted Otaku",
+    "birthdate": "7-Dec",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@miachnmiagaming"
+  },
+  {
+    "name": "Kirisato Channelつはらきりさと",
+    "personality": "Blue Cat | Live2d Rigger",
+    "birthdate": "22-Jul",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@kirisatochannel12"
+  },
+  {
+    "name": "Hanniroh Momoko Ch. ハニロ モモコ。【The Jungle Tavern】",
+    "personality": "Friendly Ghost Orb",
+    "birthdate": "9-Jun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@hannirohmomoko"
+  },
+  {
+    "name": "KyuNekoCh ¦ SweabsMY",
+    "personality": "Half-Cat Half-Human",
+    "birthdate": "6-Aug",
+    "group": "Sweabs",
+    "status": "ACTIVE",
+    "handle": "@kyunekoch"
+  },
+  {
+    "name": "Tsubaki Ch.兎澤つばき",
+    "personality": "Rabbit",
+    "birthdate": "5-Sep",
+    "group": "EXILE",
+    "status": "ACTIVE",
+    "handle": "@tsubaki487"
+  },
+  {
+    "name": "Noelle Winter Ch",
+    "personality": "Co-founder of Isekai Guild",
+    "birthdate": "25-Dec",
+    "group": "Isekai Guild",
+    "status": "ACTIVE",
+    "handle": "@noellewinter"
+  },
+  {
+    "name": "cryinqbery Ch.",
+    "personality": "Shape Shifting Monster",
+    "birthdate": "6-Aug",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@cryinqberych.9139"
+  },
+  {
+    "name": "Setsuki Fyuna Ch.",
+    "personality": "Half penguin half human",
+    "birthdate": "29-Dec",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@setsukifyuna"
+  },
+  {
+    "name": "RyusakiGemi .Ch竜崎げみ",
+    "group": "Stardust Live",
+    "status": "ACTIVE",
+    "handle": "@ryusakigemi"
+  },
+  {
+    "name": "默認 ch.",
+    "personality": "Founder of Isekai Guild",
+    "birthdate": "12-Sep",
+    "group": "Isekai Guild",
+    "status": "ACTIVE",
+    "handle": "@defaultkavy_vt"
+  },
+  {
+    "name": "Malmezo",
+    "personality": "-",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@malmezo"
+  },
+  {
+    "name": "Yutsuki Ch. 綾瀬ゆつき",
+    "personality": "-",
+    "birthdate": "15-Aug",
+    "group": "-",
+    "status": "GRADUATED",
+    "handle": "@yutsukich.9677"
+  },
+  {
+    "name": "Yui32Satomi MY Vtuber",
+    "personality": "Sunflower Engineer",
+    "birthdate": "1-May",
+    "group": "PVE",
+    "status": "ACTIVE",
+    "handle": "@yui32satomi"
+  },
+  {
+    "name": "CLOX PANDA パンダ【Starlightsekai】",
+    "personality": "Yakuza Panda",
+    "birthdate": "3-May",
+    "group": "Starlightsekai Studio",
+    "status": "ACTIVE",
+    "handle": "@cloxpanda"
+  },
+  {
+    "name": "Wafflegrab Ch.",
+    "personality": "Family Friendly Neighbourhood Sloth",
+    "birthdate": "12-Aug",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@wafflegrabch"
+  },
+  {
+    "name": "ShiraLune Ch.",
+    "personality": "Moon Goddess",
+    "birthdate": "1-Apr",
+    "group": "Elysium Forest",
+    "status": "ACTIVE",
+    "handle": "@shiralune"
+  },
+  {
+    "name": "Sakuta Ch. 栗山さくた",
+    "personality": "President of Hybriscus College",
+    "birthdate": "14-Dec",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@kuriyamasakutach"
+  },
+  {
+    "name": "ARIE KYARIE CH.【 Vtuber / Vsinger 🇲🇾 】",
+    "personality": "Little demon",
+    "birthdate": "21-Mar",
+    "group": "Tadano Family",
+    "status": "ACTIVE",
+    "handle": "@ariekyarievt"
+  },
+  {
+    "name": "猫田 ベリ / Nekota Berry",
+    "personality": "Cursed Cat",
+    "birthdate": "8-Aug",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@nekotaberry"
+  },
+  {
+    "name": "黒田翔隼Ch.",
+    "personality": "-",
+    "birthdate": "6-Jun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@hayayamy"
+  },
+  {
+    "name": "Yuuki Ame",
+    "personality": "Water Spirit",
+    "birthdate": "8-Jun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@yuukiame_"
+  },
+  {
+    "name": "Kujira Haia",
+    "personality": "Whale",
+    "birthdate": "30-Jan",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@kujira_haia"
+  },
+  {
+    "name": "MirulTaku Ch.",
+    "personality": "Cyborg | Cerebral Palsy",
+    "birthdate": "7-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@mirultaku"
+  },
+  {
+    "name": "🐺Yamine Kazuki Ch.🐺",
+    "personality": "Wolf Boy",
+    "birthdate": "13-Nov",
+    "group": "Tadano Family",
+    "status": "ACTIVE",
+    "handle": "@yaminekazukich"
+  },
+  {
+    "name": "Darrick, Subject #966 Ch.",
+    "personality": "Dust phantom",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@darrick966"
+  },
+  {
+    "name": "Reed_UX Ch",
+    "personality": "Half Human half Celestial",
+    "birthdate": "6-Mar",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@reed_ux"
+  },
+  {
+    "name": "Mobula Fasten『SweabsMY』",
+    "personality": "Atlantean Manta Ray",
+    "birthdate": "12-Aug",
+    "group": "Sweabs",
+    "status": "ACTIVE",
+    "handle": "@mobulafasten"
+  },
+  {
+    "name": "可粒米 Creamiii",
+    "personality": "Animation Video Creator",
+    "birthdate": "23-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@creamiii"
+  },
+  {
+    "name": "泡芙Creampuff Ch. ArkV CN",
+    "personality": "362 Years Old Maid",
+    "birthdate": "12-Jan",
+    "group": "-",
+    "status": "GRADUATED",
+    "handle": "@creampuffch"
+  },
+  {
+    "name": "Alice Ch.海羊アリス",
+    "personality": "Sea Spirit",
+    "birthdate": "29-May",
+    "group": "Stardust Live",
+    "status": "ACTIVE",
+    "handle": "@umimemealice"
+  },
+  {
+    "name": "Chisai Tagen Ch.",
+    "personality": "Lewdsome Multiverse Cat",
+    "birthdate": "29-Jun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@chisaitagen"
+  },
+  {
+    "name": "Terrainakka",
+    "personality": "Unicat",
+    "birthdate": "3-Apr",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@terrainakka"
+  },
+  {
+    "name": "黑鱗KuroUroko Ch.",
+    "birthdate": "23-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@kurourokoch.8017"
+  },
+  {
+    "name": "Metal Knight - Gold Guardian Ch.",
+    "personality": "Super Robo",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@goldguardianch"
+  },
+  {
+    "name": "Leo Ch.",
+    "birthdate": "11-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@leoch.6976"
+  },
+  {
+    "name": "Zuu Neptune Ch.",
+    "personality": "Snow Elf",
+    "birthdate": "22-Mar",
+    "group": "Tadano Family",
+    "status": "ACTIVE",
+    "handle": "@zuuneptune"
+  },
+  {
+    "name": "亞香凌花 Ako 【終止活動 畢業快樂】",
+    "personality": "Cat",
+    "birthdate": "10-Oct",
+    "group": "-",
+    "status": "GRADUATED",
+    "handle": "@akoch.1010"
+  },
+  {
+    "name": "Alice Latte Ch. ArkV EN",
+    "personality": "Gamer",
+    "birthdate": "1-Aug",
+    "group": "ArkV",
+    "status": "ACTIVE",
+    "handle": "@alicelattech.arkven514"
+  },
+  {
+    "name": "Kimily紀鴍樂",
+    "birthdate": "6-Jun",
+    "group": "-",
+    "status": "GRADUATED",
+    "handle": "@kimily8937"
+  },
+  {
+    "name": "Panda Poh Ch.",
+    "personality": "Panda Gamer",
+    "birthdate": "8-Nov",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@pandapoh"
+  },
+  {
+    "name": "Mizuka 水花浦田 ch.",
+    "personality": "Water Goddess",
+    "birthdate": "11-Aug",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@mizukavtuber"
+  },
+  {
+    "name": "LuviLuna",
+    "personality": "Opal Gem Spirit",
+    "birthdate": "29-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@luviluna"
+  },
+  {
+    "name": "Kuroto Shiro Ch.",
+    "personality": "-",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@kurot0shiro"
+  },
+  {
+    "name": "Rikimaru Neor Ch. 【Starlightsekai】",
+    "personality": "Cyber Techwear Assassin",
+    "birthdate": "4-Dec",
+    "group": "Starlightsekai Studio",
+    "status": "ACTIVE",
+    "handle": "@rikimaruneorch"
+  },
+  {
+    "name": "Izzat Desu",
+    "personality": "-",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@izzatdesu"
+  },
+  {
+    "name": "Endou Kowawa",
+    "personality": "Koala Lover",
+    "birthdate": "3-Dec",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@endoukowawa"
+  },
+  {
+    "name": "SaraNyan",
+    "personality": "Cafe Owner",
+    "birthdate": "3-Nov",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@saranyan"
+  },
+  {
+    "name": "Akkun Från Landet Undervinden",
+    "personality": "Part-Time Model",
+    "birthdate": "18-Sep",
+    "group": "-",
+    "status": "GRADUATED",
+    "handle": "@akkunch-otafusevt"
+  },
+  {
+    "name": "Andrew Storm Ch.",
+    "personality": "Hermit Tuna Girl",
+    "birthdate": "26-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@andrewstorm"
+  },
+  {
+    "name": "Unagi Ch. 花宮うなぎ",
+    "personality": "Koi",
+    "birthdate": "22-Jul",
+    "group": "PRRU",
+    "status": "ACTIVE",
+    "handle": "@hanamiyaunagi"
+  },
+  {
+    "name": "Yuya幽夜yay",
+    "personality": "Meikai",
+    "birthdate": "6-Jun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@yuyayay1706"
+  },
+  {
+    "name": "Jenn Velorina Ch.",
+    "personality": "Vampire princess",
+    "birthdate": "17-Aug",
+    "group": "VGakuenLIVE",
+    "status": "ACTIVE",
+    "handle": "@jennvelorinach"
+  },
+  {
+    "name": "Sanya Rem Ch. NITRE",
+    "personality": "Primordial of Dream and Reality",
+    "birthdate": "29-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@sanyaremnitre"
+  },
+  {
+    "name": "sleepymijun Ch. 미준",
+    "personality": "Sleeping strawberry",
+    "birthdate": "23-Apr",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@sleepymijunnie"
+  },
+  {
+    "name": "六六 Ch.",
+    "personality": "-",
+    "birthdate": "8-Aug",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@liuliu_ch"
+  },
+  {
+    "name": "Era Dayo Ch.",
+    "personality": "Half-cat Half-wolf",
+    "birthdate": "9-Feb",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@eradayo"
+  },
+  {
+    "name": "Ayumu Ch. 歩",
+    "personality": "Convenience Store Employee",
+    "birthdate": "18-Feb",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@ayumu_vtuber"
+  },
+  {
+    "name": "bellayukihime Ch. ベーラゆき姫",
+    "personality": "Genshin Impact Streamer Partner",
+    "birthdate": "31-Mar",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@bellayukihime"
+  },
+  {
+    "name": "HoshinoKei-星野景-",
+    "personality": "Vampire",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@hoshinokei"
+  },
+  {
+    "name": "ikahueki",
+    "personality": "Webcomic artist",
+    "birthdate": "14-Nov",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@ikahueki"
+  },
+  {
+    "name": "Mizuki Midori Ch.",
+    "personality": "Female Planet VTuber",
+    "birthdate": "3-Feb",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@mizukiimidorii"
+  },
+  {
+    "name": "LaoMi Ch. 老米ゼロ",
+    "personality": "-",
+    "birthdate": "21-Sep",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@laomi448"
+  },
+  {
+    "name": "Rittan0x0",
+    "personality": "Shut in Devil",
+    "birthdate": "4-Apr",
+    "group": "PRRU",
+    "status": "ACTIVE",
+    "handle": "@rittan0x0"
+  },
+  {
+    "name": "Cheese Moon 望月チーズ Ch.",
+    "personality": "Mage",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@cheesemoonx3"
+  },
+  {
+    "name": "Sorachi Skye",
+    "personality": "Sorachi Skye",
+    "birthdate": "22-Aug",
+    "group": "Hoshizora Entertainment",
+    "status": "ACTIVE",
+    "handle": "@sorachiskye3861"
+  },
+  {
+    "name": "Luciel Channel",
+    "personality": "Demon Cat",
+    "birthdate": "7-Dec",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@lucielnyx05"
+  },
+  {
+    "name": "Mechs Vtuber",
+    "personality": "Goodest Boy",
+    "birthdate": "30-Jul",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@mechsvtuber"
+  },
+  {
+    "name": "Lilia【リリア】",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@lilia_uwu"
+  },
+  {
+    "name": "Tadano Hakase Ch. 只野はかせ",
+    "personality": "Alchemist Vtuber",
+    "birthdate": "10-Nov",
+    "group": "Tadano Family",
+    "status": "ACTIVE",
+    "handle": "@justhakasechannel"
+  },
+  {
+    "name": "Ebisu Asa . 夷 アサ",
+    "personality": "Guardian of Harvest",
+    "birthdate": "1-Jun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@ebisuasa"
+  },
+  {
+    "name": "Syunna Phobia Ch.",
+    "personality": "Muslimah",
+    "birthdate": "1-Jan",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@syunnaphobiach"
+  },
+  {
+    "name": "未生 Misaeng",
+    "personality": "Earthbound Spirit",
+    "birthdate": "5-Dec",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@misaeng_"
+  },
+  {
+    "name": "Criznara Brightstar",
+    "personality": "Esport Player",
+    "birthdate": "29-Jul",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@criznarabrightstar"
+  },
+  {
+    "name": "Aion Kaname ch",
+    "personality": "Traveling Timekeeper",
+    "birthdate": "30-Dec",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@aionkanamech"
+  },
+  {
+    "name": "藤咲紫夜Fujisaki Shiya",
+    "personality": "Time Traveler Elf",
+    "birthdate": "14-Mar",
+    "group": "Isekai Guild",
+    "status": "ACTIVE",
+    "handle": "@fujisakishiyayaya"
+  },
+  {
+    "name": "Eirene VT",
+    "personality": "Singing Strawberry Fairy",
+    "birthdate": "1-Mar",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@eirenevt"
+  },
+  {
+    "name": "Eiten Dylus ch.",
+    "personality": "Time-Traveling Mercenary",
+    "birthdate": "12-Apr",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@eitendylus"
+  },
+  {
+    "name": "Asami Myra Ch.",
+    "personality": "-",
+    "birthdate": "-",
+    "group": "Elysium Forest",
+    "status": "ACTIVE",
+    "handle": "@asamimyrach.2687"
+  },
+  {
+    "name": "Soren_Nash Channel",
+    "personality": "Voice Actress",
+    "birthdate": "18-Dec",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@itssorennash"
+  },
+  {
+    "name": "Cornelius LOW Ch.",
+    "personality": "Pro Wrestler",
+    "birthdate": "5-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@corneliuslowch"
+  },
+  {
+    "name": "Genko Mika Ch.",
+    "personality": "-",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@genkomikach"
+  },
+  {
+    "name": "King Claude Ch.",
+    "personality": "Galactic Fleet Admiral",
+    "birthdate": "2-Dec",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@kingclaude1st"
+  },
+  {
+    "name": "千田悠依奈 ch.",
+    "personality": "Bear Trap",
+    "birthdate": "22-Jun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@sento_yuina"
+  },
+  {
+    "name": "夏冬夜Toya Ch.",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@toya"
+  },
+  {
+    "name": "Satori Channel",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@takayashisatori"
+  },
+  {
+    "name": "Jack Vtuber Ch.ジャック",
+    "personality": "Ninja",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@jackvtuberch.997"
+  },
+  {
+    "name": "E_riq",
+    "personality": "-",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@e_riq3793"
+  },
+  {
+    "name": "Valryia Starfyre ☄Amber Glow⚓",
+    "personality": "Shipgirl",
+    "birthdate": "21-May",
+    "group": "Amber Glow",
+    "status": "ACTIVE",
+    "handle": "@valryia"
+  },
+  {
+    "name": "Edogawa Ch. 江戸様",
+    "personality": "Prince",
+    "birthdate": "1-Nov",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@edogawach.1254"
+  },
+  {
+    "name": "Alia Nabalu",
+    "personality": "MyVT Supporter",
+    "birthdate": "6-Sep",
+    "status": "ACTIVE",
+    "handle": "@alianabalu"
+  },
+  {
+    "name": "White Ch. 有栖ホワイト",
+    "personality": "White Rose",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@whitech.7184"
+  },
+  {
+    "name": "Yazaza Ch.",
+    "personality": "-",
+    "birthdate": "2-Apr",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@yazaza487"
+  },
+  {
+    "name": "餅子ゆきら / Mochiko Yukira",
+    "personality": "Human with \"Talking\" Mochi(s)",
+    "birthdate": "4-Apr",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@mochiko_yukira"
+  },
+  {
+    "name": "PowPow ch.",
+    "personality": "Colorblind Artist",
+    "birthdate": "10-May",
+    "group": "Tadano Family",
+    "status": "ACTIVE",
+    "handle": "@powpowch"
+  },
+  {
+    "name": "Yuyu ch. 幽幽",
+    "personality": "-",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@yuyu06062"
+  },
+  {
+    "name": "Gen ch.黒沢 弦【EXILE】",
+    "personality": "-",
+    "birthdate": "17-Aug",
+    "group": "EXILE",
+    "status": "ACTIVE",
+    "handle": "@genchexile"
+  },
+  {
+    "name": "Neekos-san",
+    "personality": "Catboy",
+    "birthdate": "11-Dec",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@neekossan"
+  },
+  {
+    "name": "Haniartz",
+    "personality": "Calico Cat Vtuber from the Land of the Hornbills (a.k.a. the Pusak Vtuber)",
+    "birthdate": "19 Februari",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@haniartz"
+  },
+  {
+    "name": "Kyrzer",
+    "personality": "Clueless Soldier",
+    "birthdate": "5-Sep",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@kyrzer"
+  },
+  {
+    "name": "Skyzerz Ch. せかいぜる",
+    "personality": "-",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@skyzerzch.9123"
+  },
+  {
+    "name": "RyoDaWolf Ch『Official』",
+    "personality": "Wholesome Wolfboi",
+    "birthdate": "6-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@ryodawolfchofficial7165"
+  },
+  {
+    "name": "Ami Ai VTuber",
+    "personality": "Human",
+    "birthdate": "30-May",
+    "group": "Vsanse",
+    "status": "ACTIVE",
+    "handle": "@amiaivtuber"
+  },
+  {
+    "name": "Yuugure Yuu",
+    "personality": "Illustrator | Vocalist",
+    "birthdate": "14-Aug",
+    "group": "Sekai Live",
+    "status": "ACTIVE",
+    "handle": "@yuugureyuu_desu"
+  },
+  {
+    "name": "エリシア蓮ヶ谷 / Elicia Hasugaya",
+    "personality": "Witch Apprentice",
+    "birthdate": "14-Jul",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@elicia.hasugaya"
+  },
+  {
+    "name": "萊卡·庫特莉亞芙卡·Laika Kudryavka",
+    "personality": "Laika Kudryavka",
+    "birthdate": "15-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@laikakudryavka"
+  },
+  {
+    "name": "Akiharu Sora Ch. 秋晴ソラ",
+    "personality": "Ninja",
+    "birthdate": "29-Jul",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@akiharusora"
+  },
+  {
+    "name": "kono 858",
+    "personality": "Fox",
+    "birthdate": "13-Oct",
+    "group": "EXILE",
+    "status": "ACTIVE",
+    "handle": "@kono8582"
+  },
+  {
+    "name": "Reguret",
+    "personality": "Guild Master",
+    "birthdate": "6-Feb",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@reguretch"
+  },
+  {
+    "name": "見月 鳴Mitsuki Mei",
+    "group": "Stardust Live",
+    "status": "ACTIVE",
+    "handle": "@mitsukimei7305"
+  },
+  {
+    "name": "ネコガーリック_Ch. (NGチャンネル)",
+    "personality": "Cat",
+    "birthdate": "21-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@ngarlic"
+  },
+  {
+    "name": "Fluffy Gem",
+    "personality": "Fluffy Gem a Crystal Gem",
+    "birthdate": "13-Nov",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@fluffygem"
+  },
+  {
+    "name": "Otis 騎士奧蒂斯Ch.",
+    "personality": "-",
+    "birthdate": "23-Oct",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@knightsotisch"
+  },
+  {
+    "name": "Yurico祐 璃歌",
+    "personality": "-",
+    "birthdate": "12-Mar",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@yurico"
+  },
+  {
+    "name": "Ivlice Naraka",
+    "personality": "Devil who owns a tavern",
+    "birthdate": "19-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@ivlice"
+  },
+  {
+    "name": "Elisifir Asura Ch.",
+    "personality": "Oni Prince",
+    "birthdate": "12-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@elisifirasuravtuber"
+  },
+  {
+    "name": "Feronia Valens_ch",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@feroniavalens"
+  },
+  {
+    "name": "Enki",
+    "personality": "Guardian of the Lake",
+    "birthdate": "24-Apr",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@enki9359"
+  },
+  {
+    "name": "LeeMar V",
+    "personality": "Babanyonya Tigress",
+    "birthdate": "19-Apr",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@leemarv"
+  },
+  {
+    "name": "紀伊透 / Kii Tooru",
+    "personality": "Former Space Agent",
+    "birthdate": "20-Jul",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@kii_tooru"
+  },
+  {
+    "name": "Syabab Syndicate Ch.",
+    "personality": "Pokèmon Trainer",
+    "birthdate": "11-Dec",
+    "group": "Elysium Forest",
+    "status": "ACTIVE",
+    "handle": "@syabab"
+  },
+  {
+    "name": "Acasia Parsnip Ch.",
+    "personality": "Gopher",
+    "birthdate": "26-Dec",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@acasiaparsnip"
+  },
+  {
+    "name": "Moshi Moshi",
+    "personality": "The musical heaven",
+    "birthdate": "-",
+    "group": "-",
+    "status": "GRADUATED",
+    "handle": "@mochich.arkvmy8046"
+  },
+  {
+    "name": "Ito Iann Ch.",
+    "personality": "-",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@itoiannch."
+  },
+  {
+    "name": "Takao Haze Ch. ⌜VirtueLi⌟",
+    "personality": "Cheerful Bold Hawk",
+    "birthdate": "6-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@takaohazech"
+  },
+  {
+    "name": "愛野光 Vsinger",
+    "personality": "Alien Angel",
+    "birthdate": "3-Mar",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@ainohikaru"
+  },
+  {
+    "name": "Tokisaki Rin ch.時崎燐【EXILE】",
+    "personality": "Demon Rin",
+    "birthdate": "16-Sep",
+    "group": "EXILE",
+    "status": "ACTIVE",
+    "handle": "@tokisakirinchexile"
+  },
+  {
+    "name": "Orionnis Xent",
+    "personality": "Cosmic Emperor",
+    "birthdate": "-",
+    "group": "HaloHounds Entertainment",
+    "status": "ACTIVE",
+    "handle": "@xent9669"
+  },
+  {
+    "name": "Darewuz Zawarudo Ch.",
+    "personality": "-",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@darewuzzawarudoch.9131"
+  },
+  {
+    "name": "Roselia Ch.",
+    "personality": "Vampire",
+    "birthdate": "25-Dec",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@roselia_vtuber"
+  },
+  {
+    "name": "Rine Vartist",
+    "personality": "Dark Fey",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@rinevartist"
+  },
+  {
+    "name": "Kaijumaru Faiya 『OtaFuseVT』",
+    "personality": "Kaiju boy",
+    "birthdate": "31-Aug",
+    "group": "OtaFuse",
+    "status": "ACTIVE",
+    "handle": "@kaijumarufaiyaotafusevt2091"
+  },
+  {
+    "name": "Seiryū Ch. 【Pandemonium】",
+    "status": "ACTIVE",
+    "handle": "@seiryuch.pandemonium"
+  },
+  {
+    "name": "LoafyKitt【Kat-B】",
+    "personality": "Time traveling A.I",
+    "birthdate": "3-Apr",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@loafykitt"
+  },
+  {
+    "name": "B00ny' Ka",
+    "personality": "Fallen Angel",
+    "birthdate": "12-Feb",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@b00ny-ka"
+  },
+  {
+    "name": "Sylviro Ch.",
+    "personality": "Ex-Assasin",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@sylviroch"
+  },
+  {
+    "name": "Xavier Froste",
+    "personality": "College Student",
+    "birthdate": "25-Jan",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@xavierfrostebite"
+  },
+  {
+    "name": "Amayuki Ch. 天雪シイナ",
+    "personality": "-",
+    "birthdate": "21-Sep",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@amayukishiina"
+  },
+  {
+    "name": "淇儿Penguin",
+    "personality": "-",
+    "birthdate": "22-Feb",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@penguin2222"
+  },
+  {
+    "name": "リッキー・オブライエン Ch. Ricky O'Brian",
+    "personality": "Gun-nut",
+    "birthdate": "12-Dec",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@ricky5455"
+  },
+  {
+    "name": "ChaKi Ch. 青海茶狐",
+    "personality": "Fox",
+    "birthdate": "24-Aug",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@aomichaki"
+  },
+  {
+    "name": "Syko Kyza",
+    "personality": "Part-Time Racing Driver",
+    "birthdate": "2-Aug",
+    "group": "Koneko Racing",
+    "status": "ACTIVE",
+    "handle": "@sykokyza"
+  },
+  {
+    "name": "NekoSoji",
+    "personality": "-",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@nekosoji"
+  },
+  {
+    "name": "Rebung",
+    "personality": "Weeb Dryad Artist",
+    "birthdate": "13-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@rebung"
+  },
+  {
+    "name": "ShinのVtuber日常",
+    "personality": "Two-tailed fox",
+    "birthdate": "27-Mar",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@shinvtuber4020"
+  },
+  {
+    "name": "Stargazer Iris",
+    "personality": "-",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@stargazeriris"
+  },
+  {
+    "name": "Pow- Ge Ch.",
+    "personality": "L2D Artist",
+    "birthdate": "10-May",
+    "group": "Virtual Scape",
+    "status": "ACTIVE",
+    "handle": "@pow-gech.4730"
+  },
+  {
+    "name": "Kofuku Taiga Ch.",
+    "personality": "Hantu",
+    "birthdate": "29-Jul",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@kofukutaigach"
+  },
+  {
+    "name": "KokoroFujiwara",
+    "personality": "-",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@kokorofujiwara9478"
+  },
+  {
+    "name": "myumyuism",
+    "personality": "shapeshifter alien",
+    "birthdate": "29-Jan",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@myumyuism"
+  },
+  {
+    "name": "BoppelDoppel",
+    "personality": "Void Phantom",
+    "birthdate": "23-Mar",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@boppeldoppel"
+  },
+  {
+    "name": "Taka Kazuki Ch. タカカズキ [Project Orbit]",
+    "personality": "Music Producer",
+    "birthdate": "11-Aug",
+    "group": "Project Orbit",
+    "status": "ACTIVE",
+    "handle": "@takakazuki"
+  },
+  {
+    "name": "Lilith Ch. 血姫リリス",
+    "birthdate": "20-Mar",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@lilithch.8974"
+  },
+  {
+    "name": "reinami073",
+    "personality": "Filthy vtuber",
+    "birthdate": "17-Oct",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@reinami073"
+  },
+  {
+    "name": "Jakyll Luquier Ch.",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@jakyllluquierchoooopinkbirb"
+  },
+  {
+    "name": "Fye Le Trash Queen",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@fye_nakamura"
+  },
+  {
+    "name": "花織みゆきMiyuki Ch.",
+    "personality": "Hanaori Miyuki is just your local art student with a dream.",
+    "birthdate": "5-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@hanaorimiyuki"
+  },
+  {
+    "name": "Torisae Sol'aria Ch.",
+    "personality": "Albino Phoenix",
+    "birthdate": "30-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@torisaesolariach"
+  },
+  {
+    "name": "Iz1Senpai",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@iz1senpai"
+  },
+  {
+    "name": "INFY",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@infy"
+  },
+  {
+    "name": "Rayleigh Arabelle",
+    "birthdate": "1-Mar",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@rayleigharabelle"
+  },
+  {
+    "name": "Reiko Coffee CH. 霊狐 コーヒー",
+    "personality": "Coffee fairyfox",
+    "birthdate": "10-Apr",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@reikocoffee"
+  },
+  {
+    "name": "Natsapphire Ryuu",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@natsapphirech"
+  },
+  {
+    "name": "JakeLight",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@jakelight"
+  },
+  {
+    "name": "sphyra",
+    "personality": "clover spirit",
+    "birthdate": "24-Mar",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@sphyra"
+  },
+  {
+    "name": "RayzCom13",
+    "personality": "normal vtuber",
+    "birthdate": "13-Mar",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@rayzcom1361"
+  },
+  {
+    "name": "天羽ユゥキYuukiAmaha ch.",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@yuukiamahach.3734"
+  },
+  {
+    "name": "Akate Riukki",
+    "personality": "HeiKai Shifter",
+    "birthdate": "20-Mar",
+    "group": "-",
+    "status": "GRADUATED",
+    "handle": "@akateriukki"
+  },
+  {
+    "name": "Jaehee",
+    "personality": "Librarian",
+    "birthdate": "7-Nov",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@jaehee0711"
+  },
+  {
+    "name": "Curio Midori 【Graduated】",
+    "personality": "elf researcher",
+    "birthdate": "8-Oct",
+    "group": "PVE",
+    "status": "ACTIVE",
+    "handle": "@curiomidorimyvtuber5178"
+  },
+  {
+    "name": "Niten Shura",
+    "personality": "Martial Arts Panda",
+    "birthdate": "15-Nov",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@nitenshura"
+  },
+  {
+    "name": "Ushimaru Cowwu Ch.",
+    "personality": "Cow",
+    "birthdate": "24-Jun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@ushimarucowwu"
+  },
+  {
+    "name": "Fiquerie Revol Channel",
+    "personality": "Undead Hunter Vtuber",
+    "birthdate": "23-Jul",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@fiqueierevolvt"
+  },
+  {
+    "name": "星川みか",
+    "birthdate": "16-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@mikaaaaa030"
+  },
+  {
+    "name": "Marika Sumiko Ch. 澄心 マリカ",
+    "personality": "Book Cafe owner",
+    "birthdate": "27-Feb",
+    "group": "V-Serenity",
+    "status": "ACTIVE",
+    "handle": "@marikasumikoch"
+  },
+  {
+    "name": "麻曙君君 Mochi Kyun Ch.",
+    "personality": "Human",
+    "birthdate": "9-Sep",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@mochikyunkyun"
+  },
+  {
+    "name": "Armand Alywen アルマンド ・アリウェン",
+    "personality": "Virtual Modeler",
+    "birthdate": "1-Jun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@armandalywen"
+  },
+  {
+    "name": "[ 帕克 / C7 ] 马来西亚vtuber",
+    "birthdate": "6-Jun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@pakec77"
+  },
+  {
+    "name": "Haru Deluna Ch. はる",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@harufromthemoon"
+  },
+  {
+    "name": "Gin ch. 銀",
+    "birthdate": "31-Oct",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@gin_sama_ch"
+  },
+  {
+    "name": "Kyoku曲 Ch.",
+    "birthdate": "10-Jun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@kyokuch.4499"
+  },
+  {
+    "name": "Murazrai's Room of Nihonge / ムラズライの日本ゲ屋​",
+    "personality": "Autistic vtuber",
+    "birthdate": "17-Sep",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@murazrai_ch2"
+  },
+  {
+    "name": "Feeq Ch.",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@feeqch.7441"
+  },
+  {
+    "name": "cass_kuns",
+    "personality": "Human",
+    "birthdate": "24-Apr",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@cass_kuns"
+  },
+  {
+    "name": "夢星NekoMeru Ch.",
+    "birthdate": "15-Dec",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@nekomeruch.1357"
+  },
+  {
+    "name": "Carnelia Asahi [Amber Glow]",
+    "personality": "red panda",
+    "group": "Amber Glow",
+    "status": "ACTIVE",
+    "handle": "@carneliaasahi"
+  },
+  {
+    "name": "AI墨澤 Mozart【MYVtuber】",
+    "personality": "AI Singer",
+    "group": "PVE",
+    "status": "ACTIVE",
+    "handle": "@aimozartmyvtuber"
+  },
+  {
+    "name": "NutzZz",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@nutzzz9579"
+  },
+  {
+    "name": "okasyii",
+    "personality": "Human",
+    "birthdate": "2-Feb",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@okasyii"
+  },
+  {
+    "name": "Sakura Mochi ch. 桜もち",
+    "personality": "Airheaded Street Cat",
+    "birthdate": "22-Jul",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@sakuramochivt"
+  },
+  {
+    "name": "Amami Takumi Ch.",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@amamitakumi"
+  },
+  {
+    "name": "Ren Tsubasa",
+    "personality": "Cat God",
+    "birthdate": "7-May",
+    "group": "Tadano Family",
+    "status": "ACTIVE",
+    "handle": "@rentsubasa"
+  },
+  {
+    "name": "Yokonnee",
+    "personality": "Sun deity Vtuber",
+    "birthdate": "8-Oct",
+    "group": "Ombré",
+    "status": "ACTIVE",
+    "handle": "@yokonnee"
+  },
+  {
+    "name": "Joiz Bouya Ch.",
+    "personality": "Delinquent",
+    "birthdate": "26-Dec",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@joizbouya"
+  },
+  {
+    "name": "Craneey Dobi",
+    "birthdate": "6-Apr",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@craneeydobi9397"
+  },
+  {
+    "name": "RayRitsu",
+    "personality": "Editor",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@rayritsu"
+  },
+  {
+    "name": "Mew Ashitaka",
+    "personality": "Cat&Wolf Hybrid - Cosplayer",
+    "birthdate": "20-Feb",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@mewashitaka"
+  },
+  {
+    "name": "ChihaOlivia♡SweabsMY♡",
+    "personality": "From the Future",
+    "birthdate": "23-Mar",
+    "group": "Sweabs",
+    "status": "ACTIVE",
+    "handle": "@chihaoliviasweabsmy5024"
+  },
+  {
+    "name": "Kaiso Maiku Ch. 海藻マイク",
+    "personality": "A Piece of Seaweed",
+    "birthdate": "6-Oct",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@kaisomaiku"
+  },
+  {
+    "name": "Wizzo [MY]",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@wizzomy"
+  },
+  {
+    "name": "Fey Yumemiru MYVT",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@feyyumemiru"
+  },
+  {
+    "name": "夜狼星Yoro Ch.",
+    "personality": "Wolf Spirit",
+    "birthdate": "8-Feb",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@yorokamoshi_art"
+  },
+  {
+    "name": "Hafiz878",
+    "personality": "PSO2NGS Player & Streamer",
+    "birthdate": "27-Feb",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@hafiz878"
+  },
+  {
+    "name": "Cynthia Takoo",
+    "personality": "Cynthia Takoo is a Demon Wolf Mama",
+    "birthdate": "17-Jun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@cynthiatakoo"
+  },
+  {
+    "name": "LUN channel",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@lunchannel9964"
+  },
+  {
+    "name": "Kairyu Ch. カイリュー",
+    "personality": "Asian Mum",
+    "birthdate": "17-Jun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@kairyu_ch"
+  },
+  {
+    "name": "Shika Ch. 『SweabsMY』",
+    "personality": "Sambal Goreng",
+    "birthdate": "28-Aug",
+    "group": "Sweabs",
+    "status": "ACTIVE",
+    "handle": "@shikach.sweabsmy1859"
+  },
+  {
+    "name": "Nijimura Jun Ch. 虹村淳",
+    "personality": "Sleepy panda",
+    "birthdate": "6-Jan",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@nijimurajun"
+  },
+  {
+    "name": "春曜 Haruyou ch.",
+    "birthdate": "6-Mar",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@haruyou3690"
+  },
+  {
+    "name": "赤月红 Ch.",
+    "birthdate": "27-Apr",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@littlereddd"
+  },
+  {
+    "name": "畔上ラシ子 Rashiko",
+    "personality": "Shape-Shifting Seal",
+    "birthdate": "12-Apr",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@azegamirashiko"
+  },
+  {
+    "name": "フクロウ.イツキFukurou",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@fukurouituki129"
+  },
+  {
+    "name": "Shiinko",
+    "personality": "Folklore Bounty Hunter",
+    "birthdate": "3-Jul",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@shiinko02"
+  },
+  {
+    "name": "麒麟Kirin",
+    "personality": "Kirin",
+    "birthdate": "1-Nov",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@kirinmk2"
+  },
+  {
+    "name": "Hirano Erin Ch.",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@hiranoerin"
+  },
+  {
+    "name": "MarneyBoba",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@marneyboba1574"
+  },
+  {
+    "name": "NyanJunnaVT Ch.",
+    "personality": "Bunian changeling",
+    "birthdate": "1-Oct",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@nyanjunna"
+  },
+  {
+    "name": "Basara_MYVT",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@basara_myvt"
+  },
+  {
+    "name": "Hagane Verona Ch. 羽金ヴェローナ",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@haganeveronach.9929"
+  },
+  {
+    "name": "IkuMiku96",
+    "personality": "Small Gamer Boy",
+    "birthdate": "12-Dec",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@ikumiku96"
+  },
+  {
+    "name": "Razorie Ch",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@razorie"
+  },
+  {
+    "name": "御鳥 Mitori Channel",
+    "personality": "-",
+    "birthdate": "1-Sep",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@mitorichannel2341"
+  },
+  {
+    "name": "Amemoto Kazumi [飴本 和美]",
+    "personality": "Harajuku Fashion Lover",
+    "birthdate": "1-Dec",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@amemotokazumi"
+  },
+  {
+    "name": "Pokerポーカー",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@poker4501"
+  },
+  {
+    "name": "JoJo Ng",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@naminecutes"
+  },
+  {
+    "name": "GwemlinJia",
+    "personality": "Cate Gwemlin",
+    "birthdate": "26-Nov",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@gwemlinjia"
+  },
+  {
+    "name": "Saelanzer",
+    "personality": "Elf",
+    "birthdate": "6-Feb",
+    "group": "Vsanse",
+    "status": "ACTIVE",
+    "handle": "@saelanzer"
+  },
+  {
+    "name": "Usui Raine 雨霓",
+    "personality": "Fallen Angel of Memories",
+    "birthdate": "17-Sep",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@usuiraine"
+  },
+  {
+    "name": "Elvuine",
+    "personality": "Ghost Crayfish",
+    "birthdate": "13-Apr",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@elvuine"
+  },
+  {
+    "name": "Scarlet Evergreen Ch",
+    "personality": "Possessed Spirit",
+    "birthdate": "29-Aug",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@scarletevergreench"
+  },
+  {
+    "name": "Asakura Ch. 朝倉 | Couple Vtuber",
+    "personality": "Snow Wolf & Half-Fox Half-Elf",
+    "birthdate": "5 April & 13 October",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@asakura_hirotto_hikari"
+  },
+  {
+    "name": "Kurose Haruno 黒瀬 はるの Ch.",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@kuroseharuno"
+  },
+  {
+    "name": "Kaos萝傲天",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@kaos0422"
+  },
+  {
+    "name": "Erii the Yokai Bunny",
+    "personality": "Yokai Rabbit",
+    "birthdate": "3-Jul",
+    "group": "Vsanse",
+    "status": "ACTIVE",
+    "handle": "@eriisshu"
+  },
+  {
+    "name": "Ayakawa Hikari",
+    "personality": "White cat",
+    "birthdate": "5-Oct",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@ayakawahikari3991"
+  },
+  {
+    "name": "Man Royan",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@manroyan_"
+  },
+  {
+    "name": "Shana Aisaka",
+    "personality": "Shana Aisaka",
+    "birthdate": "20-Mar",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@inemoshana"
+  },
+  {
+    "name": "Sephrano Blckheart",
+    "personality": "Archangel General",
+    "birthdate": "3-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@jcsam6289"
+  },
+  {
+    "name": "Asuzu Chan.",
+    "personality": "God Of Creation",
+    "birthdate": "3-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@amahikoasuzu"
+  },
+  {
+    "name": "Zawarldo Ch. ザー・ワールド・チャネル",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@zawarldo"
+  },
+  {
+    "name": "General KITT",
+    "personality": "Special soldier",
+    "birthdate": "7-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@general_kitt"
+  },
+  {
+    "name": "Zaleos VTuber",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@zaleosvtuber8696"
+  },
+  {
+    "name": "Hikari Keomi",
+    "personality": "Forest Healer",
+    "birthdate": "30-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@hikarikeomi"
+  },
+  {
+    "name": "FranEbi Ch.",
+    "personality": "Chibi",
+    "birthdate": "19-Jun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@franebich"
+  },
+  {
+    "name": "Eneli Kun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@enelikun"
+  },
+  {
+    "name": "Mizuyori ch. 春征 美縁",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@mizuyorii"
+  },
+  {
+    "name": "Hoku Elrod [SWEABS]",
+    "personality": "Space Wanderer",
+    "birthdate": "27-Jun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@hokuelrod"
+  },
+  {
+    "name": "RENTARO",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@rentaro_val"
+  },
+  {
+    "name": "1-Jun",
+    "personality": "Seahorse",
+    "birthdate": "1-Feb",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@jun1chiro"
+  },
+  {
+    "name": "Jun Yong-Ho",
+    "personality": "Otherworldly ancient king",
+    "birthdate": "16-Jun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@66junvt"
+  },
+  {
+    "name": "Akihiro Isla Ch.",
+    "personality": "Akihiro Isla as a an entity that was created by a person's imagination",
+    "birthdate": "13-Jan",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@akihiroisla"
+  },
+  {
+    "name": "BomiirangVT",
+    "personality": "Hacker & Virtual Idol",
+    "birthdate": "9th April",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@bomiirangvt"
+  },
+  {
+    "name": "Hanayagi Luca",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@hanayagiluca5780"
+  },
+  {
+    "name": "Wolfenshire ch",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@wolfenshirech9543"
+  },
+  {
+    "name": "Frozen ENV",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@frozenenv"
+  },
+  {
+    "name": "kasonRyu Art&Vt",
+    "personality": "Lost boy in a lost time",
+    "birthdate": "3-Jun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@kasonryu"
+  },
+  {
+    "name": "Sky Ishigamiそら 石上",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@skyishigami782"
+  },
+  {
+    "name": "Axel Axotis",
+    "personality": "Lost Axolotl Boy",
+    "birthdate": "15-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@axelaxotis"
+  },
+  {
+    "name": "ChingguOppa",
+    "personality": "Chibi Oppa",
+    "birthdate": "21-Mar",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@chingguoppa"
+  },
+  {
+    "name": "Delka Tsuzuku Ch.",
+    "personality": "\"Human\" Vtuber Who craves Violence",
+    "birthdate": "1-Nov",
+    "group": "IVT Project",
+    "status": "ACTIVE",
+    "handle": "@delkatsuzukuch"
+  },
+  {
+    "name": "Naero",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@n43r0"
+  },
+  {
+    "name": "Michiya Ren",
+    "personality": "-",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@michiyaren"
+  },
+  {
+    "name": "Eiji Zatsu",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@eijizatsu"
+  },
+  {
+    "name": "linakitteh",
+    "personality": "Zombie Cat Oneesan",
+    "birthdate": "21-Aug",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@linakittehvt"
+  },
+  {
+    "name": "ShawnTheMaroon",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@themaroon47"
+  },
+  {
+    "name": "theYzone",
+    "personality": "-",
+    "birthdate": "7-Aug",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@tehyzone"
+  },
+  {
+    "name": "Anisekay",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@anisekay"
+  },
+  {
+    "name": "StraunTBE",
+    "personality": "Tinkerer",
+    "birthdate": "13-Sep",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@strauntbe9482"
+  },
+  {
+    "name": "Belshazzar Ch.",
+    "personality": "Demon",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@belshazzarch."
+  },
+  {
+    "name": "Nuzawu Highlights",
+    "personality": "Shape-shifting Cat Vtuber",
+    "birthdate": "10-Dec",
+    "group": "Vsanse",
+    "status": "ACTIVE",
+    "handle": "@nuzawuhighlights5884"
+  },
+  {
+    "name": "Syn is Trying",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@st_synna"
+  },
+  {
+    "name": "IzumiiVT",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@izumiivt1263"
+  },
+  {
+    "name": "StarFyr3z",
+    "personality": "AI powered Android",
+    "birthdate": "8-Aug",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@starfyr3z"
+  },
+  {
+    "name": "dreamymemo Ch.",
+    "personality": "Dream Walker",
+    "birthdate": "31-Dec",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@dreamymemo"
+  },
+  {
+    "name": "Thistle Katt",
+    "personality": "Cat Overlord",
+    "birthdate": "Dec-21",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@thistlekatt"
+  },
+  {
+    "name": "Reinhardt L. Rauschenberg",
+    "personality": "Vampire Dragon",
+    "birthdate": "20-Sep",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@reinhardt_lr"
+  },
+  {
+    "name": "Nyro Aisofin Ch.",
+    "personality": "Nyro Aisofin is an Ice Knight",
+    "birthdate": "22-Apr",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@nyroaisofin"
+  },
+  {
+    "name": "Mihiroe みひろ",
+    "personality": "Adventurer - Human Healer Whale",
+    "birthdate": "16-Mar",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@mihiroe"
+  },
+  {
+    "name": "Yukimori Haqua Ch.",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@yukimorihaquach.8424"
+  },
+  {
+    "name": "Omoiri Shizuri 🎀 思い莉 靖梨📚",
+    "personality": "College Student",
+    "birthdate": "24-Jul",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@omoirishizuri"
+  },
+  {
+    "name": "Kaide Kaneko",
+    "personality": "Sleeptuber",
+    "birthdate": "18-Mar",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@kaidekaneko1596"
+  },
+  {
+    "name": "BunBun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@bunbun6661"
+  },
+  {
+    "name": "cloff",
+    "personality": "Dragon",
+    "birthdate": "8-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@cloff180"
+  },
+  {
+    "name": "Akihito Tsubasa",
+    "personality": "Kirin Barista",
+    "birthdate": "12-Jan",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@akihitotsubasa9128"
+  },
+  {
+    "name": "Bianci_KuroVT",
+    "personality": "Catgirl Mafia Boss",
+    "birthdate": "16th July",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@biancikurovt"
+  },
+  {
+    "name": "Airashi Tora",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@airashitora"
+  },
+  {
+    "name": "Bota Bayu_Mytuber",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@botabayu_mytuber3783"
+  },
+  {
+    "name": "Miki Kujira",
+    "personality": "Mermaid",
+    "birthdate": "18-Nov",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@mikikujira"
+  },
+  {
+    "name": "zeriゼリ Ch.",
+    "personality": "Mint ice-slime",
+    "birthdate": "25-Jun",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@zeri_rin"
+  },
+  {
+    "name": "Hisoka ch ⭐️🍮 [EN Vtuber]",
+    "personality": "Idol",
+    "birthdate": "12-Jan",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@hisoka_dayo"
+  },
+  {
+    "name": "NINE Ch.",
+    "personality": "Prisoner Vtuber",
+    "birthdate": "26-Feb",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@ninech.9956"
+  },
+  {
+    "name": "KonKato_VT",
+    "personality": "Wanderer Orange Cat",
+    "birthdate": "2-Jul",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@konkato_vt"
+  },
+  {
+    "name": "Murasaki Kurome Ch.",
+    "personality": "-",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@murasakikuromech.8505"
+  },
+  {
+    "name": "Sei Seiryuu",
+    "personality": "Android",
+    "birthdate": "19-May",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@seiseiryuu"
+  },
+  {
+    "name": "Kouwi",
+    "personality": "Sleepy white cat hibernating",
+    "birthdate": "-",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@kounya_cafe"
+  },
+  {
+    "name": "Here N4tes",
+    "personality": "Paranormal Specialist",
+    "birthdate": "17-Aug",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@here_n4tes"
+  },
+  {
+    "name": "MoonReiVT",
+    "personality": "Moon Rei is a Mage",
+    "birthdate": "18-Aug",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@moonrei_ttv"
+  },
+  {
+    "name": "Ah Ying 晶盈",
+    "personality": "Tomboy Sea Dragon",
+    "birthdate": "21-Mar",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@ahyingjy"
+  },
+  {
+    "name": "Syn is Trying",
+    "group": "-",
+    "status": "ACTIVE",
+    "handle": "@st_synna"
+  }
+]
