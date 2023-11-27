@@ -18,6 +18,13 @@ Available regions: Indonesia (`id`), Malaysia (`my`), Singapore (`sg`), Vietnam 
 | `/:region/graduated` | GET    | -          | -        | `/my/graduated`        |
 | `/:region/:handle`   | GET    | `/:handle` | Yes      | `/id/@amayaclorentine` |
 
+## 🙌 Contributing
+
+If you are interested in contributing to the data, please kindly wait for `POST` endpoints being developed. When it available, you can directly contribute with just sending POST API request to the API server.
+
+> **Note**
+> Don't contribute to the data inside `data/` folder. We use database for storing this data and not files inside `data/`.
+
 ## 💖 Credits
 
 Thanks to [bun](https://bun.sh) for their super-fast runtime and [GitHub Codespaces](https://github.com/codespaces) for providing their fast developer environment.
