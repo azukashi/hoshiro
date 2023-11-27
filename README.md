@@ -4,7 +4,7 @@ RESTful API server to get all Southeast Asia Virtual YouTubers data without hass
 
 Base URL: http://localhost:3000/api
 
-> **Note**:
+> [!NOTE]
 > Please note that this is still under development. Any additions or breaking changes to the endpoints in future may happen.
 
 ## 🚦 Endpoints
@@ -22,7 +22,7 @@ Available regions: Indonesia (`id`), Malaysia (`my`), Singapore (`sg`), Vietnam 
 
 If you are interested in contributing to the data, please kindly wait for `POST` endpoints being developed. When it available, you can directly contribute with just sending POST API request to the API server.
 
-> **Note**:
+> [!IMPORTANT]
 > Don't contribute to the data inside `data/` folder. We use database for storing this data and not files inside `data/`.
 
 ## 💖 Credits
