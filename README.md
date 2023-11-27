@@ -9,12 +9,14 @@ Base URL: http://localhost:3000/api
 
 ## 🚦 Endpoints
 
-| Route           | Method | Parameters | Required | Examples               | Region |
-| --------------- | ------ | ---------- | -------- | ---------------------- | ------ |
-| `/id`           | GET    | -          | -        | `/id`                  | 🇮🇩     |
-| `/id/active`    | GET    | -          | -        | `/id/active`           | 🇮🇩     |
-| `/id/graduated` | GET    | -          | -        | `/id/graduated`        | 🇮🇩     |
-| `/id/:handle`   | GET    | `/:handle` | Yes      | `/id/@amayaclorentine` | 🇮🇩     |
+Available regions: Indonesia (`id`), Malaysia (`my`), Singapore (`sg`), Vietnam (`vn`).
+
+| Route                | Method | Parameters | Required | Examples               |
+| -------------------- | ------ | ---------- | -------- | ---------------------- |
+| `/:region`           | GET    | -          | -        | `/id`                  |
+| `/:region/active`    | GET    | -          | -        | `/sg/active`           |
+| `/:region/graduated` | GET    | -          | -        | `/my/graduated`        |
+| `/:region/:handle`   | GET    | `/:handle` | Yes      | `/id/@amayaclorentine` |
 
 ## 💖 Credits
 
