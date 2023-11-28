@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "bun --hot app.ts",
-    "start": "bun app.ts"
+    "start": "curl -fsSL https://bun.sh/install | bash && ~/.bun/bin/bun app.ts"
   },
   "author": "Falcxxdev",
   "license": "MIT",
