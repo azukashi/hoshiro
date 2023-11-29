@@ -1,5 +1,6 @@
 import express, { Router } from 'express';
 import { useYouTubeData } from '../functions/useYouTubeData';
+import { name, version } from '../package.json';
 import Indonesia from '../models/Indonesia';
 import Malaysia from '../models/Malaysia';
 import Singapore from '../models/Singapore';
@@ -12,6 +13,10 @@ const regions = [
     { code: 'sg', db: Singapore },
     { code: 'vn', db: Vietnam },
 ];
+
+router.get('/', (req, res) => {
+    res.send({ _APPNAME: name, message: 'Hello!', version: version });
+});
 
 regions.forEach((region) => {
     router.get(`/${region.code}`, async (req, res) => {
