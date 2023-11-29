@@ -16,4 +16,7 @@ mongoose.connect(process.env.DATABASE_URI as string, { retryWrites: true }).then
     app.listen(port, () => {
         console.log(`[INFO] Express server has been started! (Live at port ${port})`);
     });
+    app.get('/', (req, res) => {
+        res.send({ message: 'Hello, consider using /api as a root instead of this root path.' });
+    });
 });
