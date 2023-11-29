@@ -1,11 +1,11 @@
-# :trollface: VTubers API
+# VTubers API
 
-RESTful API server to get all Southeast Asia Virtual YouTubers data without hassle by just providing their YouTube @handle.
+RESTful API server to get all Southeast Asia Virtual YouTubers data by just providing their YouTube @handle.
 
 Base URL: http://localhost:3000/api
 
 > [!NOTE]
-> Please note that this is still under development. Any additions or breaking changes to the endpoints in future may happen.
+> Please note that this API is still under development. Breaking changes to the endpoints may happen.
 
 ## 🚦 Endpoints
 
@@ -20,10 +20,7 @@ Available regions: Indonesia (`id`), Malaysia (`my`), Singapore (`sg`), Vietnam 
 
 ## 🙌 Contributing
 
-If you are interested in contributing to the data, please kindly wait for `POST` endpoints being developed. When it available, you can directly contribute with just sending POST API request to the API server.
-
-> [!IMPORTANT]
-> Don't contribute to the `data/` folder. We use cloud database for storing data. It was meant to save backup data in case something happens with the cloud database.
+If you are interested in contributing to the data, please kindly wait for `POST` endpoints being developed. When it ready, you can directly contribute by just sending POST request to the API server.
 
 ## 💖 Credits
 
