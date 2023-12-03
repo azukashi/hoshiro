@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "bun --hot app.ts",
-    "start": "ts-node app.ts"
+    "start": "ls node_modules/.bin && ./node_modules/.bin/ts-node app.ts"
   },
   "author": "Falcxxdev",
   "license": "MIT",
