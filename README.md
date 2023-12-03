@@ -2,7 +2,7 @@
 
 RESTful API server to get all Southeast Asia Virtual YouTubers data by just providing their YouTube @handle.
 
-Base URL: http://localhost:3000/api
+Base URL: https://vtubers-api.cyclic.app/
 
 > [!NOTE]
 > Please note that this API is still under development. Breaking changes to the endpoints may happen.
