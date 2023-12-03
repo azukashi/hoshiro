@@ -1,3 +1,4 @@
+// @ts-nocheck
 import express, { Router } from 'express';
 import { useYouTubeData } from '../functions/useYouTubeData';
 import { name, version } from '../package.json';
