@@ -2,6 +2,8 @@ import express from 'express';
 import mongoose from 'mongoose';
 import routes from './routes';
 import dotenv from 'dotenv';
+import { root } from './routes/info/root';
+import { authErrorHandler } from './middleware/autherror';
 
 dotenv.config();
 const app = express();
@@ -11,12 +13,15 @@ if (!process.env.DATABASE_URI) throw new Error('DATABASE_URI is needed! Check ag
 
 mongoose.connect(process.env.DATABASE_URI as string, { retryWrites: true }).then(() => {
     console.log('[INFO] App connected to MongoDB Atlas!');
-    app.use('/api', routes);
+
     app.use(express.json());
+    app.use(express.urlencoded({ extended: true }));
+    app.use('/api', routes);
+
+    app.get('/', root);
+    app.use(authErrorHandler);
+
     app.listen(port, () => {
         console.log(`[INFO] Express server has been started! (Live at port ${port})`);
-    });
-    app.get('/', (req, res) => {
-        res.send({ message: 'Hello, consider using /api as a root instead of this root path.' });
     });
 });
