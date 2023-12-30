@@ -2,8 +2,10 @@
   "name": "vtubers-api",
   "version": "0.0.1",
   "scripts": {
+    "build": "tsc -p ./tsconfig.node.json",
     "dev": "bun --hot app.ts",
-    "start": "bun app.ts"
+    "start": "node dist/app.js",
+    "start:bun": "bun --smol app.ts"
   },
   "author": "Falcxxdev",
   "license": "MIT",
