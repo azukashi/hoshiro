@@ -1,11 +1,9 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import routes from './routes';
-import dotenv from 'dotenv';
 import { root } from './routes/info/root';
 import { authErrorHandler } from './middleware/autherror';
 
-dotenv.config();
 const app = express();
 const port = process.env.PORT || 3000;
 
