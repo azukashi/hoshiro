@@ -2,7 +2,7 @@
 
 RESTful API server to get all Southeast Asia Virtual YouTubers data by just providing their YouTube @handle.
 
-Base URL: https://vtubers-api.cyclic.app/
+Base URL: https://vtubers-api.falcxxdev.cyou
 
 > [!NOTE]
 > Please note that this API is still under development. Breaking changes to the endpoints may happen.
@@ -24,9 +24,11 @@ Available regions: Indonesia (`id`), Malaysia (`my`), Singapore (`sg`), Vietnam 
 
 If you are interested in contributing to the data, please kindly wait for `POST` endpoints being developed. When it ready, you can directly contribute by just sending POST request to the API server.
 
-## 💖 Credits
+## 💖 Thanks to
 
-Thanks to [bun](https://bun.sh) for their super-fast runtime and [GitHub Codespaces](https://github.com/codespaces) for providing their fast developer environment.
+-   [Bun.sh](https://bun.sh) for their super-fast runtime
+-   [GitHub Codespaces](https://github.com/codespaces) and [Project IDX](https://idx.dev) for providing their fast developer environment
+-   [@BayuDC](https://github.com/BayuDC) for offering his VPS to host this RESTful API
 
 ## 📃 License
 
