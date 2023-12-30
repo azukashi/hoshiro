@@ -1,23 +1,17 @@
-// @ts-nocheck
 import express, { Router } from 'express';
-import { useYouTubeData } from '../functions/useYouTubeData';
-import { name, version } from '../package.json';
-import Indonesia from '../models/Indonesia';
-import Malaysia from '../models/Malaysia';
-import Singapore from '../models/Singapore';
-import Vietnam from '../models/Vietnam';
+import { useYTData } from '../functions/useYTData';
+import { apiRoute } from './info/api';
+import { registerRoute } from './auth/register';
+import { loginRoute } from './auth/login';
+import { protectedRoute } from './protected/test';
+import { regions } from '../constants/regions';
 
 const router: Router = express.Router();
-const regions = [
-    { code: 'id', db: Indonesia },
-    { code: 'my', db: Malaysia },
-    { code: 'sg', db: Singapore },
-    { code: 'vn', db: Vietnam },
-];
 
-router.get('/', (req, res) => {
-    res.send({ _APPNAME: name, message: 'Hello!', version: version });
-});
+router.get('/', apiRoute);
+router.post('/register', registerRoute);
+router.post('/login', loginRoute);
+router.get('/protected', protectedRoute);
 
 regions.forEach((region) => {
     router.get(`/${region.code}`, async (req, res) => {
@@ -37,7 +31,7 @@ regions.forEach((region) => {
         if (region.code == 'vn') params = { ch_id: req.params.handle };
         let data = await region.db.findOne(params);
         if (!data) return res.status(404).send({ error: 'Queried handle not found!' });
-        const filterred = await useYouTubeData(req.params.handle as string, region.code == 'vn');
+        const filterred = await useYTData(req.params.handle as string, region.code == 'vn');
         res.send({ ...data.toJSON(), ...filterred });
     });
 });
