@@ -11,12 +11,14 @@ Base URL: https://vtubers-api.cyclic.app/
 
 Available regions: Indonesia (`id`), Malaysia (`my`), Singapore (`sg`), Vietnam (`vn`).
 
-| Route                | Method | Parameters | Required | Examples               |
-| -------------------- | ------ | ---------- | -------- | ---------------------- |
-| `/:region`           | GET    | -          | -        | `/id`                  |
-| `/:region/active`    | GET    | -          | -        | `/sg/active`           |
-| `/:region/graduated` | GET    | -          | -        | `/my/graduated`        |
-| `/:region/:handle`   | GET    | `/:handle` | Yes      | `/id/@amayaclorentine` |
+| Route                | Method | Parameters             | Required | Examples               |
+| -------------------- | ------ | ---------------------- | -------- | ---------------------- |
+| `/register`          | POST   | `username`, `password` | Yes      | `johndoe`, `john123`   |
+| `/login`             | POST   | `username`, `password` | Yes      | `johndoe`, `john123`   |
+| `/:region`           | GET    | -                      | -        | `/id`                  |
+| `/:region/active`    | GET    | -                      | -        | `/sg/active`           |
+| `/:region/graduated` | GET    | -                      | -        | `/my/graduated`        |
+| `/:region/:handle`   | GET    | `/:handle`             | Yes      | `/id/@amayaclorentine` |
 
 ## 🙌 Contributing
 
