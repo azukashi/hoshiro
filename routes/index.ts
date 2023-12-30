@@ -1,3 +1,4 @@
+// @ts-nocheck
 import express, { Router } from 'express';
 import { useYTData } from '../functions/useYTData';
 import { apiRoute } from './info/api';
