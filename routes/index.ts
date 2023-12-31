@@ -18,6 +18,7 @@ router.post('/login', loginRoute);
 router.get('/protected', protectedRoute);
 
 regions.forEach((region) => {
+    // Public routes
     router.get(`/${region.code}`, async (req, res) => {
         const data = await region.db.find();
         res.send(data);
@@ -44,12 +45,12 @@ regions.forEach((region) => {
         async (req: Request, res: Response) => {
             let { name, personality, birthdate, group, status, handle } = req.body;
             let contributors = req.auth;
-            if (!name) return res.status(401).json({ message: 'Name is required!' });
+            if (!name) return res.status(422).json({ message: 'Name is required!' });
             if (!personality) personality = '-';
             if (!birthdate) birthdate = '-';
             if (!group) group = '-';
-            if (!status) return res.status(401).json({ message: 'Status is required!' });
-            if (!handle) return res.status(401).json({ message: 'YouTube handle is required!' });
+            if (!status) return res.status(422).json({ message: 'Status is required!' });
+            if (!handle) return res.status(422).json({ message: 'YouTube handle is required!' });
             const data = new region.db({
                 name: name,
                 personality: personality,
