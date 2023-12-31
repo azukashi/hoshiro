@@ -87,7 +87,6 @@ regions.forEach((region) => {
                 res.send(data);
             } catch (err) {
                 res.status(404).json({ message: 'Handle does not exist!' });
-                console.log(err);
             }
         },
     ]);
