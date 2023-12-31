@@ -24,4 +24,6 @@ jobs:
               run: bun install
 
             - name: Run test units (with coverage reports) 🧪
+              env:
+                  SECRET_SESSION: ${{ secrets.SECRET_SESSION }}
               run: bun test --coverage
