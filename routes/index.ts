@@ -32,10 +32,9 @@ regions.forEach((region) => {
     });
     router.get(`/${region.code}/:handle`, async (req, res) => {
         let params: any = { handle: req.params.handle };
-        if (region.code == 'vn') params = { ch_id: req.params.handle };
         let data = await region.db.findOne(params);
         if (!data) return res.status(404).send({ error: 'Queried handle not found!' });
-        const filterred = await useYTData(req.params.handle as string, region.code == 'vn');
+        const filterred = await useYTData(req.params.handle as string);
         res.send({ ...data.toJSON(), ...filterred });
     });
 
