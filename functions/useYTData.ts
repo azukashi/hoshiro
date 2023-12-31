@@ -1,8 +1,7 @@
 import { useChannelGetter, useChannelAbout } from './useChannel';
 import { YTNodes } from 'youtubei.js';
 
-// @ts-ignore
-export const useYTData = async (handle: string, useId?: bool) => {
+export const useYTData = async (handle: string, useId?: boolean) => {
     let url = `https://youtube.com/${handle}`;
     if (useId) url = `https://youtube.com/channel/${handle}`;
     const data = await useChannelGetter(url);
