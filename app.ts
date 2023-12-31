@@ -1,5 +1,6 @@
 import express from 'express';
 import mongoose from 'mongoose';
+import morgan from 'morgan';
 import routes from './routes';
 import { root } from './routes/info/root';
 import { authErrorHandler } from './middleware/autherror';
@@ -14,6 +15,7 @@ mongoose.connect(process.env.DATABASE_URI as string, { retryWrites: true }).then
 
     app.use(express.json());
     app.use(express.urlencoded({ extended: true }));
+    app.use(morgan('short'));
     app.use('/api', routes);
 
     app.get('/', root);
