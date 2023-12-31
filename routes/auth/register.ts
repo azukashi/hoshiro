@@ -7,6 +7,9 @@ export const registerRoute = async (req: Request, res: Response) => {
     console.log(req.body);
     const { username, password } = req.body;
 
+    if (!username && !password)
+        return res.status(401).json({ message: 'Username & password is required to register!' });
+
     try {
         // Hash the password before saving to the database
         const hashedPassword = await bcrypt.hash(password, 10);
