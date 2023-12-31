@@ -9,13 +9,15 @@ Base URL: https://vtubers-api.falcxxdev.cyou
 
 ## 🚦 Endpoints
 
-Available regions: Indonesia (`id`), Malaysia (`my`), Singapore (`sg`), Vietnam (`vn`).
+Available regions: Indonesia (`id`), Malaysia (`my`), Singapore (`sg`).
 
 | Route                | Method | Parameters             | Required | Examples               |
 | -------------------- | ------ | ---------------------- | -------- | ---------------------- |
 | `/register`          | POST   | `username`, `password` | Yes      | `johndoe`, `john123`   |
 | `/login`             | POST   | `username`, `password` | Yes      | `johndoe`, `john123`   |
 | `/:region`           | GET    | -                      | -        | `/id`                  |
+| `/:region`           | POST   | `...`                  | Yes      | `/id`                  |
+| `/:region`           | PATCH  | `...`                  | Yes      | `/id`                  |
 | `/:region/active`    | GET    | -                      | -        | `/sg/active`           |
 | `/:region/graduated` | GET    | -                      | -        | `/my/graduated`        |
 | `/:region/:handle`   | GET    | `/:handle`             | Yes      | `/id/@amayaclorentine` |
