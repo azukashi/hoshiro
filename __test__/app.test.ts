@@ -54,3 +54,23 @@ describe('POST /api/login', async () => {
         expect(res.unauthorized).toBeTrue();
     });
 });
+
+describe('POST /api/:region', () => {
+    it('Should return 401 status code', () => {
+        regions.forEach(async (region) => {
+            const res = await request(app).post(`/api/${region.code}`);
+            expect(res.statusCode).toBe(401);
+            expect(res.unauthorized).toBeTrue();
+        });
+    });
+});
+
+describe('PATCH /api/:region', () => {
+    it('Should return 401 status code', () => {
+        regions.forEach(async (region) => {
+            const res = await request(app).patch(`/api/${region.code}`);
+            expect(res.statusCode).toBe(401);
+            expect(res.unauthorized).toBeTrue();
+        });
+    });
+});

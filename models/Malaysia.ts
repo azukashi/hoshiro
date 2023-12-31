@@ -7,6 +7,7 @@ const schema = new mongoose.Schema({
     group: String,
     status: String,
     handle: String,
+    contributors: Array,
 });
 
 export default mongoose.model('Malaysia', schema);
