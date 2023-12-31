@@ -4,7 +4,7 @@
     "lib": ["ESNext"],
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "types": ["@types/express"],
+    "types": ["@types/express", "bun-types"],
     "resolveJsonModule": true,
     "declaration": true,
     "declarationMap": true,

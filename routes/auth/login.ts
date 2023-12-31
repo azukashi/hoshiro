@@ -5,6 +5,9 @@ import bcrypt from 'bcryptjs';
 export const loginRoute = async (req: Request, res: Response) => {
     const { username, password }: any = req.body;
 
+    if (!username && !password)
+        return res.status(401).json({ message: 'Username & password is required to register!' });
+
     try {
         const user = await User.findOne({ username });
         if (!user) {
