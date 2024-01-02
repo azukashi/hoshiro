@@ -13,8 +13,8 @@ Available regions: Indonesia (`id`), Malaysia (`my`), Singapore (`sg`).
 
 | Route                | Method | Parameters             | Required | Examples               |
 | -------------------- | ------ | ---------------------- | -------- | ---------------------- |
-| `/register`          | POST   | `username`, `password` | Yes      | `johndoe`, `john123`   |
-| `/login`             | POST   | `username`, `password` | Yes      | `johndoe`, `john123`   |
+| `/auth/register`     | POST   | `username`, `password` | Yes      | `johndoe`, `john123`   |
+| `/auth/login`        | POST   | `username`, `password` | Yes      | `johndoe`, `john123`   |
 | `/:region`           | GET    | -                      | -        | `/id`                  |
 | `/:region`           | POST   | `...`                  | Yes      | `/id`                  |
 | `/:region`           | PATCH  | `...`                  | Yes      | `/id`                  |

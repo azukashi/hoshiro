@@ -3,8 +3,8 @@ import { regions } from '../constants/regions';
 import request from 'supertest';
 import app from '../app';
 
-describe('GET /api', async () => {
-    const res = await request(app).get('/api');
+describe('GET /', async () => {
+    const res = await request(app).get('/');
     it('Should return 200 status code', () => {
         expect(res.statusCode).toBe(200);
         expect(res.type).toBe('application/json');
@@ -14,24 +14,24 @@ describe('GET /api', async () => {
     });
 });
 
-describe('GET /api/:region', () => {
+describe('GET /:region', () => {
     it('Should return 200 status code', () => {
         regions.forEach(async (region) => {
-            const res = await request(app).get(`/api/${region.code}`);
+            const res = await request(app).get(`/${region.code}`);
             expect(res.statusCode).toBe(200);
             expect(res.type).toBe('application/json');
         });
     });
     it('Should return an array', () => {
         regions.forEach(async (region) => {
-            const res = await request(app).get(`/api/${region.code}`);
+            const res = await request(app).get(`/${region.code}`);
             expect(res.body).toBeArray();
         });
     });
 });
 
-describe('GET /api/protected', async () => {
-    const res = await request(app).get('/api/protected');
+describe('GET /protected', async () => {
+    const res = await request(app).get('/protected');
     it('Should return 401 status code', () => {
         expect(res.statusCode).toBe(401);
         expect(res.unauthorized).toBeTrue();
@@ -39,36 +39,36 @@ describe('GET /api/protected', async () => {
     });
 });
 
-describe('POST /api/auth/register', async () => {
-    const res = await request(app).post('/api/auth/register');
+describe('POST /auth/register', async () => {
+    const res = await request(app).post('/auth/register');
     it('Should return 401 status code', () => {
         expect(res.statusCode).toBe(401);
         expect(res.unauthorized).toBeTrue();
     });
 });
 
-describe('POST /api/auth/login', async () => {
-    const res = await request(app).post('/api/auth/login');
+describe('POST /auth/login', async () => {
+    const res = await request(app).post('/auth/login');
     it('Should return 401 status code', () => {
         expect(res.statusCode).toBe(401);
         expect(res.unauthorized).toBeTrue();
     });
 });
 
-describe('POST /api/:region', () => {
+describe('POST /:region', () => {
     it('Should return 401 status code', () => {
         regions.forEach(async (region) => {
-            const res = await request(app).post(`/api/${region.code}`);
+            const res = await request(app).post(`/${region.code}`);
             expect(res.statusCode).toBe(401);
             expect(res.unauthorized).toBeTrue();
         });
     });
 });
 
-describe('PATCH /api/:region', () => {
+describe('PATCH /:region', () => {
     it('Should return 401 status code', () => {
         regions.forEach(async (region) => {
-            const res = await request(app).patch(`/api/${region.code}`);
+            const res = await request(app).patch(`/${region.code}`);
             expect(res.statusCode).toBe(401);
             expect(res.unauthorized).toBeTrue();
         });
