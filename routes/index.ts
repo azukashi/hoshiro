@@ -15,10 +15,10 @@ import { changeUsername } from './auth/changeUsername';
 const router: Router = express.Router();
 
 router.get('/', apiRoute);
-router.post('/register', registerRoute);
-router.post('/login', loginRoute);
-router.patch('/change_password', changePassword);
-router.patch('/change_username', changeUsername);
+router.post('/auth/register', registerRoute);
+router.post('/auth/login', loginRoute);
+router.patch('/auth/change_password', changePassword);
+router.patch('/auth/change_username', changeUsername);
 router.get('/protected', protectedRoute);
 
 regions.forEach((region) => {
