@@ -40,7 +40,7 @@ describe('GET /api/protected', async () => {
 });
 
 describe('POST /api/auth/register', async () => {
-    const res = await request(app).post('/api/register');
+    const res = await request(app).post('/api/auth/register');
     it('Should return 401 status code', () => {
         expect(res.statusCode).toBe(401);
         expect(res.unauthorized).toBeTrue();
@@ -48,7 +48,7 @@ describe('POST /api/auth/register', async () => {
 });
 
 describe('POST /api/auth/login', async () => {
-    const res = await request(app).post('/api/login');
+    const res = await request(app).post('/api/auth/login');
     it('Should return 401 status code', () => {
         expect(res.statusCode).toBe(401);
         expect(res.unauthorized).toBeTrue();
