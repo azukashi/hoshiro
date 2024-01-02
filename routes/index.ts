@@ -4,22 +4,24 @@ import { authenticateJWT } from '../middleware/auth';
 import { Request } from 'express-jwt';
 import { Response } from 'express';
 import { useYTData } from '../functions/useYTData';
-import { apiRoute } from './info/api';
+import { root } from './info/root';
 import { registerRoute } from './auth/register';
 import { loginRoute } from './auth/login';
 import { protectedRoute } from './protected/test';
 import { regions } from '../constants/regions';
 import { changePassword } from './auth/changePassword';
 import { changeUsername } from './auth/changeUsername';
+import { notFound } from './info/notfound';
 
 const router: Router = express.Router();
 
-router.get('/', apiRoute);
+router.get('/', root);
 router.post('/auth/register', registerRoute);
 router.post('/auth/login', loginRoute);
 router.patch('/auth/change_password', changePassword);
 router.patch('/auth/change_username', changeUsername);
 router.get('/protected', protectedRoute);
+router.get('*', notFound);
 
 regions.forEach((region) => {
     // Public routes
