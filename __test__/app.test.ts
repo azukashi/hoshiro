@@ -39,7 +39,7 @@ describe('GET /api/protected', async () => {
     });
 });
 
-describe('POST /api/register', async () => {
+describe('POST /api/auth/register', async () => {
     const res = await request(app).post('/api/register');
     it('Should return 401 status code', () => {
         expect(res.statusCode).toBe(401);
@@ -47,7 +47,7 @@ describe('POST /api/register', async () => {
     });
 });
 
-describe('POST /api/login', async () => {
+describe('POST /api/auth/login', async () => {
     const res = await request(app).post('/api/login');
     it('Should return 401 status code', () => {
         expect(res.statusCode).toBe(401);
