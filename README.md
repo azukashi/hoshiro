@@ -1,6 +1,6 @@
-# VTubers API
+# Hoshiro
 
-RESTful API server to get all Southeast Asia Virtual YouTubers data by just providing their YouTube @handle.
+Hoshiro is an RESTful API server to get all Southeast Asia (SEA) Virtual YouTubers data.
 
 Base URL: https://vtubers-api.falcxxdev.cyou
 
