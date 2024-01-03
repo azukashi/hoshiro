@@ -1,6 +1,6 @@
-# VTubers API
+# Hoshiro
 
-RESTful API server to get all Southeast Asia Virtual YouTubers data by just providing their YouTube @handle.
+Hoshiro is an RESTful API server to get all Southeast Asia (SEA) Virtual YouTubers data.
 
 Base URL: https://vtubers-api.falcxxdev.cyou
 
@@ -22,15 +22,12 @@ Available regions: Indonesia (`id`), Malaysia (`my`), Singapore (`sg`).
 | `/:region/graduated` | GET    | -                      | -        | `/my/graduated`        |
 | `/:region/:handle`   | GET    | `/:handle`             | Yes      | `/id/@amayaclorentine` |
 
-## 🙌 Contributing
-
-If you are interested in contributing to the data, please kindly wait for `POST` endpoints being developed. When it ready, you can directly contribute by just sending POST request to the API server.
-
 ## 💖 Thanks to
 
 -   [Bun.sh](https://bun.sh) for their super-fast runtime
 -   [GitHub Codespaces](https://github.com/codespaces) and [Project IDX](https://idx.dev) for providing their fast developer environment
 -   [@BayuDC](https://github.com/BayuDC) for offering his VPS to host this RESTful API
+-   [Agis Lugandi](https://www.instagram.com/lugandiagis) and [Shigure](https://www.facebook.com/ahmad.supriono.359) for their contributions on suggesting some new project name
 
 ## 📃 License
 
