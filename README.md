@@ -22,10 +22,6 @@ Available regions: Indonesia (`id`), Malaysia (`my`), Singapore (`sg`).
 | `/:region/graduated` | GET    | -                      | -        | `/my/graduated`        |
 | `/:region/:handle`   | GET    | `/:handle`             | Yes      | `/id/@amayaclorentine` |
 
-## 🙌 Contributing
-
-If you are interested in contributing to the data, please kindly wait for `POST` endpoints being developed. When it ready, you can directly contribute by just sending POST request to the API server.
-
 ## 💖 Thanks to
 
 -   [Bun.sh](https://bun.sh) for their super-fast runtime
