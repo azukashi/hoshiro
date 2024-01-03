@@ -31,6 +31,7 @@ If you are interested in contributing to the data, please kindly wait for `POST`
 -   [Bun.sh](https://bun.sh) for their super-fast runtime
 -   [GitHub Codespaces](https://github.com/codespaces) and [Project IDX](https://idx.dev) for providing their fast developer environment
 -   [@BayuDC](https://github.com/BayuDC) for offering his VPS to host this RESTful API
+-   [Agis Lugandi](https://www.instagram.com/lugandiagis) and [Shigure](https://www.facebook.com/ahmad.supriono.359) for their contributions on suggesting some new project name
 
 ## 📃 License
 
