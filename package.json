@@ -1,5 +1,5 @@
 {
-  "name": "vtubers-api",
+  "name": "hoshiro",
   "version": "0.1.0",
   "scripts": {
     "build": "tsc -p ./tsconfig.node.json",
