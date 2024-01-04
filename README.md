@@ -2,7 +2,7 @@
 
 Hoshiro is an RESTful API server to get all Southeast Asia (SEA) Virtual YouTubers data.
 
-Base URL: https://vtubers-api.falcxxdev.cyou
+Base URL: https://api.hoshiro.falcxxdev.cyou
 
 > [!NOTE]
 > Please note that this API is still under development. Breaking changes to the endpoints may happen.
