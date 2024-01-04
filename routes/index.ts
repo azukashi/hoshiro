@@ -21,7 +21,6 @@ router.post('/auth/login', loginRoute);
 router.patch('/auth/change_password', changePassword);
 router.patch('/auth/change_username', changeUsername);
 router.get('/protected', protectedRoute);
-router.get('*', notFound);
 
 regions.forEach((region) => {
     // Public routes
@@ -97,5 +96,8 @@ regions.forEach((region) => {
         },
     ]);
 });
+
+// NEVER PLACE THIS UPSIDE
+router.get('*', notFound);
 
 export default router;
