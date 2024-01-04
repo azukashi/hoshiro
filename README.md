@@ -1,13 +1,11 @@
-# Hoshiro
-
-Hoshiro is an RESTful API server to get all Southeast Asia (SEA) Virtual YouTubers data.
-
-Base URL: https://api.hoshiro.falcxxdev.cyou
+![Banner](https://cdn.discordapp.com/attachments/1192399828567740548/1192399961116119130/Hoshiro_BE_Banner.png)
 
 > [!NOTE]
 > Please note that this API is still under development. Breaking changes to the endpoints may happen.
 
 ## 🚦 Endpoints
+
+Base URL: https://api.hoshiro.falcxxdev.cyou
 
 Available regions: Indonesia (`id`), Malaysia (`my`), Singapore (`sg`).
 
