@@ -1,20 +1,20 @@
-name: 'Test'
+name: 'Build'
 on:
-  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
+    push:
+        branches:
+            - master
+    pull_request:
+        branches:
+            - master
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Build and publish a Docker image
-        uses: macbre/push-to-ghcr@master
-        with:
-          dockerfile: Dockerfile
-          image_name: bayudc/hoshiro
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            - name: Build and publish a Docker image
+              uses: macbre/push-to-ghcr@master
+              with:
+                  dockerfile: Dockerfile
+                  image_name: bayudc/hoshiro
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
