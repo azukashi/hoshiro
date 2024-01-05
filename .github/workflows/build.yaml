@@ -1,4 +1,4 @@
-name: 'Build'
+name: 'Build & Deploy'
 on:
     push:
         branches:
@@ -18,3 +18,14 @@ jobs:
                   dockerfile: Dockerfile
                   image_name: bayudc/hoshiro
                   github_token: ${{ secrets.GITHUB_TOKEN }}
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            - name: Login server and do something
+              uses: appleboy/ssh-action@v1.0.2
+              with:
+                  host: ${{ secrets.SSH_HOST }}
+                  username: ${{ secrets.SSH_USER }}
+                  key: ${{ secrets.SSH_KEY }}
+                  script: whoami
