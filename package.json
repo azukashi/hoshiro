@@ -4,7 +4,7 @@
   "scripts": {
     "build": "tsc -p ./tsconfig.node.json",
     "dev": "bun --hot app.server.ts",
-    "start": "node -r dotenv/config dist/app.server.js",
+    "start": "node dist/app.server.js",
     "start:bun": "bun --smol app.server.ts",
     "test": "bun test"
   },
