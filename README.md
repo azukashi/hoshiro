@@ -20,6 +20,34 @@ Available regions: Indonesia (`id`), Malaysia (`my`), Singapore (`sg`).
 | `/:region/graduated` | GET    | -                      | -        | `/my/graduated`        |
 | `/:region/:handle`   | GET    | `/:handle`             | Yes      | `/id/@amayaclorentine` |
 
+## ➡️ Development
+
+### 🛠️ Requirements
+
+A [bun.sh](https://bun.sh) >= 1.0.20 setup with [node.js](https://nodejs.org) >= 16.x (for production) is recommended.
+
+### 📦 Install dependencies
+
+```sh
+$ bun install
+```
+
+### 📝 Create environment file
+
+```
+MONGODB_URI="your mongodb connection uri"
+SECRET_SESSION="hashed secret string"
+```
+
+### 🚀 Start development server
+
+```sh
+$ bun run dev
+#
+# [INFO] App connected to MongoDB Atlas!
+# [INFO] Express server has been started! (Live at port xxxx)
+```
+
 ## 💖 Thanks to
 
 -   [Bun.sh](https://bun.sh) for their super-fast runtime
