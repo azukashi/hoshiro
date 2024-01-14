@@ -18,8 +18,8 @@ const router: Router = express.Router();
 router.get('/', root);
 router.post('/auth/register', registerRoute);
 router.post('/auth/login', loginRoute);
-router.patch('/auth/change_password', changePassword);
-router.patch('/auth/change_username', changeUsername);
+router.patch('/auth/password', changePassword);
+router.patch('/auth/username', changeUsername);
 router.get('/protected', protectedRoute);
 
 regions.forEach((region) => {
