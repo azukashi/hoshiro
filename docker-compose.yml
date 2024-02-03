@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+    app:
+        container_name: hoshiro
+        image: ghcr.io/gifaldyazkaa/hoshiro
+        ports:
+            - 8001:3000
+        env_file:
+            - .env
+        restart: always
