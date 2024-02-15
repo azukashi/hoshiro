@@ -22,7 +22,7 @@ const userSchema = new mongoose.Schema<UserDocument>(
     },
     {
         versionKey: false,
-    }
+    },
 );
 
 userSchema.method('comparePassword', async function (password = '') {
