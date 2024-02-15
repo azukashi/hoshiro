@@ -5,6 +5,7 @@
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "typeRoots": ["./node_modules/@types", "./types/"],
+    "types": ["bun-types"],
     "resolveJsonModule": true,
     "declaration": true,
     "declarationMap": true,
