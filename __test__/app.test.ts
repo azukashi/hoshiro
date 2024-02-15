@@ -9,8 +9,8 @@ describe('GET /', async () => {
         expect(res.statusCode).toBe(200);
         expect(res.type).toBe('application/json');
     });
-    it('Should return _APPNAME value', () => {
-        expect(res.body._APPNAME).toBeString();
+    it('Should return app value', () => {
+        expect(res.body.app).toBeString();
     });
 });
 
