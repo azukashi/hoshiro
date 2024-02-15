@@ -4,7 +4,7 @@
     "lib": ["ESNext"],
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "types": ["@types/express", "bun-types"],
+    "typeRoots": ["./node_modules/@types", "./types/"],
     "resolveJsonModule": true,
     "declaration": true,
     "declarationMap": true,
@@ -12,6 +12,6 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "skipLibCheck": false,
-  },
+    "skipLibCheck": false
+  }
 }
