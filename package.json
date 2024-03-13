@@ -22,7 +22,7 @@
     "mongoose": "8.1.2",
     "morgan": "1.10.0",
     "supertest": "6.3.4",
-    "youtubei.js": "9.0.2"
+    "youtubei.js": "9.1.0"
   },
   "devDependencies": {
     "@types/bcryptjs": "2.4.6",
