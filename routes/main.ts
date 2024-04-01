@@ -15,6 +15,10 @@ router.get('/', (req, res) => {
 regions.forEach((region) => {
     // Public routes
     router.get(`/${region.code}`, async (req, res) => {
+        if (req.query.query) {
+            const data = await region.db.find({ $text: { $search: decodeURIComponent(req.query.query) } });
+            return res.send(data);
+        }
         const data = await region.db.find();
         res.send(data);
     });
@@ -30,8 +34,13 @@ regions.forEach((region) => {
         let params: any = { handle: req.params.handle };
         let data = await region.db.findOne(params);
         if (!data) return res.status(404).send({ error: 'Queried handle not found!' });
-        const filterred = await useYTData(req.params.handle as string);
-        res.send({ ...data.toJSON(), ...filterred });
+        try {
+            const filterred = await useYTData(req.params.handle as string);
+            res.send({ ...data.toJSON(), ...filterred });
+        } catch (err) {
+            const { error } = JSON.parse(err.info);
+            res.status(error.code).send(error);
+        }
     });
 
     // Protected routes
