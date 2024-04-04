@@ -19,7 +19,8 @@ regions.forEach((region) => {
             const { page = 1, limit = 10 } = req.query;
 
             if (req.query.query) {
-                const talents = await region.db.find({ $text: { $search: decodeURIComponent(req.query.query) } });
+                const encoded = encodeURIComponent(req.query.query);
+                const talents = await region.db.find({ $text: { $search: decodeURIComponent(encoded) } });
                 return res.status(200).json({
                     talents,
                     totalPage: Math.ceil(talents.length / limit),
