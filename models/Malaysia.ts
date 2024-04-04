@@ -9,11 +9,12 @@ const schema = new mongoose.Schema(
         status: String,
         handle: String,
         contributors: Array,
+        picture: String,
     },
     {
         versionKey: false,
         timestamps: true,
-    },
+    }
 );
 
 schema.index({ name: 'text', group: 'text', handle: 'text' });
