@@ -30,3 +30,14 @@ export const useYTData = async (handle: string, useId?: boolean) => {
         console.log(err);
     }
 };
+
+export const getPicture = async (handle: string, name: string) => {
+    try {
+        let url = `https://youtube.com/${handle}`;
+        const data = await useChannelGetter(url);
+
+        return data.metadata.avatar[0].url;
+    } catch (err) {
+        return `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}`;
+    }
+};
