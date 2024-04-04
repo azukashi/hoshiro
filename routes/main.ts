@@ -5,7 +5,6 @@ import { Response, Request } from 'express';
 import { regions } from '../constants/regions';
 import { name, version } from '../package.json';
 import { getPicture, useYTData } from '../functions/useYTData';
-import { ObjectId } from 'mongoose';
 
 const router: Router = express.Router();
 
@@ -40,6 +39,7 @@ regions.forEach((region) => {
                 talents,
                 totalPage: Math.ceil(count / limit),
                 currentPage: page,
+                count: count,
             });
         } catch (err) {
             next(err);
