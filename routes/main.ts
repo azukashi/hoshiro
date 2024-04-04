@@ -4,7 +4,8 @@ import { guard } from '../middleware/auth';
 import { Response, Request } from 'express';
 import { regions } from '../constants/regions';
 import { name, version } from '../package.json';
-import { useYTData } from '../functions/useYTData';
+import { getPicture, useYTData } from '../functions/useYTData';
+import { ObjectId } from 'mongoose';
 
 const router: Router = express.Router();
 
@@ -14,13 +15,35 @@ router.get('/', (req, res) => {
 
 regions.forEach((region) => {
     // Public routes
-    router.get(`/${region.code}`, async (req, res) => {
-        if (req.query.query) {
-            const data = await region.db.find({ $text: { $search: decodeURIComponent(req.query.query) } });
-            return res.send(data);
+    router.get(`/${region.code}`, async (req, res, next) => {
+        try {
+            const { page = 1, limit = 10 } = req.query;
+
+            if (req.query.query) {
+                const data = await region.db.find({ $text: { $search: decodeURIComponent(req.query.query) } });
+                return res.send(data);
+            }
+            const talents = await region.db
+                .find()
+                .limit(limit * 1)
+                .skip((page - 1) * limit);
+
+            const count = await region.db.countDocuments();
+
+            await talents.forEach(async (talent) => {
+                talent.picture = await getPicture(talent.handle, talent.name);
+
+                await talent.save();
+            });
+
+            return res.status(200).json({
+                talents,
+                totalPage: Math.ceil(count / limit),
+                currentPage: page,
+            });
+        } catch (err) {
+            next(err);
         }
-        const data = await region.db.find();
-        res.send(data);
     });
     router.get(`/${region.code}/active`, async (req, res) => {
         const data = await region.db.find({ status: 'ACTIVE' });
