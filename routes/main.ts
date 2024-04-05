@@ -84,6 +84,7 @@ regions.forEach((region) => {
             if (!group) group = '-';
             if (!status) return res.status(422).json({ message: 'Status is required!' });
             if (!handle) return res.status(422).json({ message: 'YouTube handle is required!' });
+            const picture = await getPicture(handle, name);
             const data = new region.db({
                 name: name,
                 personality: personality,
@@ -91,6 +92,7 @@ regions.forEach((region) => {
                 group: group,
                 status: status,
                 handle: handle,
+                picture: picture,
                 contributors: [contributors],
             });
             await data.save();
@@ -106,6 +108,7 @@ regions.forEach((region) => {
 
             try {
                 const data = await region.db.findOne(params);
+                const picture = await getPicture(data.handle, data.name);
 
                 if (name) data.name = name;
                 if (personality) data.personality = personality;
@@ -113,6 +116,7 @@ regions.forEach((region) => {
                 if (group) data.group = group;
                 if (status) data.status = status;
                 if (handle) data.handle = handle;
+                data.picture = picture;
                 if (!data.contributors.find(({ username }) => username === contributors?.username))
                     data.contributors.push(contributors);
 
