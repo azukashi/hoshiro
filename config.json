@@ -1,5 +1,6 @@
 {
   "app": {
-    "domain": "127.0.0.1"
+    "domain": "localhost",
+    "origin": "http://localhost:5000"
   }
 }
