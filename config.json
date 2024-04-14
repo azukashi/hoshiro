@@ -1,6 +1,6 @@
 {
   "app": {
-    "domain": "localhost",
-    "origin": "http://localhost:5000"
+    "domain": "hoshiro.space",
+    "origin": "https://www.hoshiro.space"
   }
 }
