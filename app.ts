@@ -4,14 +4,15 @@ import cors from 'cors';
 import mainRoutes from './routes/main';
 import authRoutes from './routes/auth';
 import userRoutes from './routes/user';
+import profileRoutes from './routes/profile';
 import cookie from 'cookie-parser';
 import { auth } from './middleware/auth';
-import profileRoutes from './routes/profile';
 import { notFound } from './middleware/error';
+import { app as config } from './config.json';
 
 const app = express();
 
-app.use(cors({ credentials: true }));
+app.use(cors({ credentials: true, origin: config.origin }));
 app.use(cookie());
 app.use(morgan('short'));
 app.use(express.json());
