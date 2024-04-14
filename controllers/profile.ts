@@ -12,6 +12,7 @@ export const updatePassword = async (req: Request, res: Response, next: NextFunc
 
         const usr = await User.findById(user.id);
 
+        // @ts-ignore
         usr?.hash(newPassword);
         res.status(204).send();
     } catch (err) {

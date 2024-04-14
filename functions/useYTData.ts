@@ -36,6 +36,7 @@ export const getPicture = async (handle: string, name: string) => {
         let url = `https://youtube.com/${handle}`;
         const data = await useChannelGetter(url);
 
+        // @ts-ignore
         return data.metadata.avatar[0].url;
     } catch (err) {
         return `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}`;

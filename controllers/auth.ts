@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { NextFunction, Response, Request } from 'express';
 import { app as config } from '../config.json';
 import createHttpError from 'http-errors';

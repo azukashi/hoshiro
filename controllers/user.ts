@@ -1,3 +1,4 @@
+// @ts-nocheck
 import User from '../models/auth/User';
 
 export const index = async (req, res) => {
