@@ -24,18 +24,22 @@ export async function login(req: Request, res: Response, next: NextFunction) {
         const refreshToken = jwt.sign({ secret: token }, secret, { expiresIn: '7d' });
 
         res.cookie('access_token', accessToken, {
+            signed: true,
             httpOnly: true,
             secure: true,
             partitioned: true,
             maxAge: 1000 * 60 * 60 * 1,
             domain: config.domain,
+            sameSite: 'none',
         });
         res.cookie('refresh_token', refreshToken, {
+            signed: true,
             httpOnly: true,
             secure: true,
             partitioned: true,
             maxAge: 1000 * 60 * 60 * 24 * 7,
             domain: config.domain,
+            sameSite: 'none',
         });
 
         res.status(201).json({ message: 'Login success' });
