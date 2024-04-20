@@ -25,11 +25,15 @@ export async function login(req: Request, res: Response, next: NextFunction) {
 
         res.cookie('access_token', accessToken, {
             httpOnly: true,
+            secure: true,
+            partitioned: true,
             maxAge: 1000 * 60 * 60 * 1,
             domain: config.domain,
         });
         res.cookie('refresh_token', refreshToken, {
             httpOnly: true,
+            secure: true,
+            partitioned: true,
             maxAge: 1000 * 60 * 60 * 24 * 7,
             domain: config.domain,
         });
