@@ -5,7 +5,7 @@
 
 ## 🚦 Endpoints
 
-Base URL: https://api.hoshiro.falcxxdev.cyou
+Base URL: https://api.hoshiro.space
 
 Available regions: Indonesia (`id`), Malaysia (`my`), Singapore (`sg`).
 
@@ -55,7 +55,8 @@ $ bun run dev
 
 -   [Bun.sh](https://bun.sh) for their super-fast runtime
 -   [GitHub Codespaces](https://github.com/codespaces) and [Project IDX](https://idx.dev) for providing their fast developer environment
--   [@BayuDC](https://github.com/BayuDC) for offering his VPS to host this RESTful API
+-   [Microsoft Azure](https://azure.microsoft.com/en-us) for offering a Windows Virtual Machine to host this Backend API
+-   [@BayuDC](https://github.com/BayuDC) for the code, and ideas contribution
 -   [Agis Lugandi](https://www.instagram.com/lugandiagis) and [Shigure](https://www.facebook.com/ahmad.supriono.359) for their contributions on suggesting some new project name
 
 ## 📃 License
