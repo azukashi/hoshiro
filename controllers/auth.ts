@@ -76,7 +76,7 @@ export async function loginDiscord(req: Request, res: Response, next: NextFuncti
             },
         });
 
-        let user = await User.findOne({ discordId: discordUser.id }).select('+token');
+        let user = await User.findOne({ discordId: discordUser.id });
         const pictureUrl = `https://cdn.discordapp.com/avatars/${discordUser.id}/${discordUser.avatar}`;
 
         if (!user) {
@@ -89,26 +89,15 @@ export async function loginDiscord(req: Request, res: Response, next: NextFuncti
         }
 
         await user.syncPicture(pictureUrl);
-        const token = await user.generateToken();
 
-        const accessToken = jwt.sign(user.toJSON(), secret, { expiresIn: '1h' });
-        const refreshToken = jwt.sign({ secret: token }, secret, { expiresIn: '7d' });
-
-        res.cookie('access_token', accessToken, {
-            httpOnly: true,
-            maxAge: 1000 * 60 * 60 * 1,
-            domain: config.domain,
+        res.status(201).json({
+            username: discordUser.username,
+            discordId: discordUser.id,
+            picture: pictureUrl,
         });
-        res.cookie('refresh_token', refreshToken, {
-            httpOnly: true,
-            maxAge: 1000 * 60 * 60 * 24 * 7,
-            domain: config.domain,
-        });
-
-        res.status(201).json({ message: 'Login success' });
     } catch (err) {
+        res.status(401).send({ message: 'Login failed' });
         console.log(err);
-        next(createHttpError(401, 'Login failed'));
     }
 }
 
