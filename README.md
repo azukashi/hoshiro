@@ -1,7 +1,7 @@
 ![Banner](https://ipfs.filebase.io/ipfs/QmQ6vrubUcakCixQUan7KQYXgt3c2GBnXSx9qd63J3e1By)
 
 > [!NOTE]
-> Please note that this API is still under development. Breaking changes to the endpoints may happen.
+> Please note that this API is still under development. Breaking changes to the endpoints may happen. If you encountering any issues, please [join our support server](https://discord.gg/dXrY2q32aN).
 
 ## 🚦 Endpoints
 
