@@ -3,6 +3,7 @@ import morgan from 'morgan';
 import cors from 'cors';
 import mainRoutes from './routes/main';
 import authRoutes from './routes/auth';
+import infoRoutes from './routes/info';
 import userRoutes from './routes/user';
 import profileRoutes from './routes/profile';
 import cookie from 'cookie-parser';
@@ -21,6 +22,7 @@ app.use(auth());
 
 app.use('/', mainRoutes);
 app.use('/auth', authRoutes);
+app.use('/info', infoRoutes);
 app.use('/users', userRoutes);
 app.use('/profile', profileRoutes);
 
