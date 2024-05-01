@@ -1,6 +1,5 @@
 // @ts-nocheck
 import express, { Router } from 'express';
-import { guard } from '../middleware/auth';
 import { Response, Request } from 'express';
 import { regions } from '../constants/regions';
 import { name, version } from '../package.json';
