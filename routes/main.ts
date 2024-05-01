@@ -76,14 +76,14 @@ regions.forEach((region) => {
             let { name, personality, birthdate, group, status, handle, contributor } = req.body;
             if (!contributor)
                 return res
-                    .status(403)
-                    .json({ message: 'Authentication required. Please do submitting within the website' });
-            if (!name) return res.status(422).json({ message: 'Name is required!' });
+                    .status(401)
+                    .json({ status: 401, message: 'Authentication required. Please do submitting within the website' });
+            if (!name) return res.status(422).json({ status: 422, message: 'Name is required!' });
             if (!personality) personality = '-';
             if (!birthdate) birthdate = '-';
             if (!group) group = '-';
-            if (!status) return res.status(422).json({ message: 'Status is required!' });
-            if (!handle) return res.status(422).json({ message: 'YouTube handle is required!' });
+            if (!status) return res.status(422).json({ status: 422, message: 'Status is required!' });
+            if (!handle) return res.status(422).json({ status: 422, message: 'YouTube handle is required!' });
             const picture = await getPicture(handle, name);
             const data = new region.db({
                 name: name,
@@ -105,8 +105,8 @@ regions.forEach((region) => {
             let params = { handle: req.params.handle };
             if (!contributor)
                 return res
-                    .status(403)
-                    .json({ message: 'Authentication required. Please do submitting within the website' });
+                    .status(401)
+                    .json({ status: 401, message: 'Authentication required. Please do submitting within the website' });
 
             try {
                 const data = await region.db.findOne(params);
@@ -125,7 +125,7 @@ regions.forEach((region) => {
                 await data.save();
                 res.send(data);
             } catch (err) {
-                res.status(404).json({ message: 'Handle does not exist!' });
+                res.status(404).json({ status: 404, message: 'Handle does not exist!' });
             }
         },
     ]);

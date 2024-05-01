@@ -4,7 +4,7 @@ import { YTNodes } from 'youtubei.js';
 
 export async function check(req: Request, res: Response, next: NextFunction) {
     const { link } = req.query;
-    if (!link) return res.send(401).send({ message: 'Please include a YouTube link to check!' });
+    if (!link) return res.send(422).send({ status: 422, message: 'Please include a YouTube link to check!' });
 
     try {
         if ((link as string).startsWith('https://')) {
@@ -30,7 +30,7 @@ export async function check(req: Request, res: Response, next: NextFunction) {
             });
         }
     } catch (err) {
-        res.status(500).send({ message: 'Unexpected error' });
+        res.status(500).send({ status: 500, message: 'Unexpected error' });
         console.log(err);
     }
 }
