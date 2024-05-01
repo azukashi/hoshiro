@@ -14,7 +14,7 @@ const schema = new mongoose.Schema(
     {
         versionKey: false,
         timestamps: true,
-    }
+    },
 );
 
 schema.index({ name: 'text', group: 'text', handle: 'text' });
