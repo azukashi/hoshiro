@@ -19,10 +19,10 @@
     "express-jwt": "8.4.1",
     "http-errors": "2.0.0",
     "jsonwebtoken": "9.0.2",
-    "mongoose": "8.2.4",
+    "mongoose": "8.3.3",
     "morgan": "1.10.0",
     "supertest": "6.3.4",
-    "youtubei.js": "9.2.0"
+    "youtubei.js": "9.4.0"
   },
   "devDependencies": {
     "@types/bcryptjs": "2.4.6",
@@ -32,9 +32,9 @@
     "@types/jsonwebtoken": "9.0.6",
     "@types/morgan": "1.9.9",
     "@types/supertest": "6.0.2",
-    "bun-types": "1.1.0",
+    "bun-types": "1.1.6",
     "dotenv": "16.4.5",
-    "typescript": "5.4.3"
+    "typescript": "5.4.5"
   },
   "prettier": {
     "tabWidth": 4,
