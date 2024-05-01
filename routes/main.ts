@@ -75,16 +75,16 @@ regions.forEach((region) => {
     router.post(`/${region.code}`, [
         async (req: Request, res: Response) => {
             let { name, personality, birthdate, group, status, handle, contributor } = req.body;
+            if (!contributor)
+                return res
+                    .status(403)
+                    .json({ message: 'Authentication required. Please do submitting within the website' });
             if (!name) return res.status(422).json({ message: 'Name is required!' });
             if (!personality) personality = '-';
             if (!birthdate) birthdate = '-';
             if (!group) group = '-';
             if (!status) return res.status(422).json({ message: 'Status is required!' });
             if (!handle) return res.status(422).json({ message: 'YouTube handle is required!' });
-            if (!contributor)
-                return res
-                    .status(422)
-                    .json({ message: 'Authentication required. Please do submitting within the website' });
             const picture = await getPicture(handle, name);
             const data = new region.db({
                 name: name,
@@ -104,6 +104,10 @@ regions.forEach((region) => {
         async (req: Request, res: Response) => {
             let { name, personality, birthdate, group, status, handle, contributor } = req.body;
             let params = { handle: req.params.handle };
+            if (!contributor)
+                return res
+                    .status(403)
+                    .json({ message: 'Authentication required. Please do submitting within the website' });
 
             try {
                 const data = await region.db.findOne(params);
