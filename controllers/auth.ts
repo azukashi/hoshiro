@@ -1,7 +1,6 @@
 // @ts-nocheck
 import { NextFunction, Response, Request } from 'express';
 import { app as config } from '../config.json';
-import createHttpError from 'http-errors';
 import User from '../models/auth/User';
 import * as jwt from 'jsonwebtoken';
 import axios from 'axios';
@@ -13,10 +12,10 @@ export async function login(req: Request, res: Response, next: NextFunction) {
         const { email, password } = req.body;
 
         const user = await User.findOne({ email }).select('+password +token');
-        if (!user) throw createHttpError(404, 'User not found');
+        if (!user) throw res.status(404).json({ message: 'User is not found' });
 
         const auth = await user.comparePassword(password);
-        if (!auth) throw createHttpError(401, 'Password is incorrect');
+        if (!auth) throw res.status(401).json({ message: 'Password is incorect' });
 
         const token = await user.generateToken();
 
