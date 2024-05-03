@@ -5,12 +5,7 @@ export const useChannelGetter = async (url: string) => {
     const innerTube = await Innertube.create();
     const resolved = await innerTube.resolveURL(url);
     const channelId = await resolved.payload.browseId;
-    return await innerTube.getChannel(channelId);
-};
-
-export const useChannelAbout = async (url: string) => {
-    const innerTube = await Innertube.create();
-    const resolved = await innerTube.resolveURL(url);
-    const channelId = await resolved.payload.browseId;
-    return (await innerTube.getChannel(channelId)).getAbout();
+    const channel = await innerTube.getChannel(channelId);
+    const about = await channel.getAbout();
+    return { channel, about };
 };
