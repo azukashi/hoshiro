@@ -7,25 +7,47 @@ export const useYTData = async (handle: string, useId?: boolean) => {
     const data = await useChannelGetter(url);
     const about = await useChannelAbout(url);
     try {
-        const datahead = data.header?.as(YTNodes.C4TabbedHeader);
-        const abouthead = about?.as(YTNodes.AboutChannel);
-        const filterred = {
-            picture: data?.metadata.avatar,
-            banner: datahead?.banner,
-            subscribers: datahead?.subscribers?.text,
-            videos: datahead?.videos_count?.text,
-            is_verified: datahead?.author.is_verified,
-            is_membership: !datahead?.sponsor_button?.is_disabled,
-        };
-        const filterredAbout = {
-            views_count: abouthead.metadata?.view_count,
-            joined_date: abouthead.metadata?.joined_date?.text,
-            country: abouthead.metadata?.country,
-            description: abouthead.metadata?.description,
-            links: abouthead.metadata?.links,
-        };
+        if (data.header?.is(YTNodes.C4TabbedHeader)) {
+            const abouthead = about?.as(YTNodes.AboutChannel);
+            const filterred = {
+                picture: data?.metadata.avatar,
+                banner: data?.header?.banner,
+                subscribers: data?.header?.subscribers?.text,
+                videos: data?.header?.videos_count?.text,
+                is_verified: data?.header?.author.is_verified,
+                is_membership: !data?.header?.sponsor_button?.is_disabled,
+            };
+            const filterredAbout = {
+                views_count: abouthead.metadata?.view_count,
+                joined_date: abouthead.metadata?.joined_date?.text,
+                country: abouthead.metadata?.country,
+                description: abouthead.metadata?.description,
+                links: abouthead.metadata?.links,
+            };
 
-        return { ...filterred, ...filterredAbout };
+            return { ...filterred, ...filterredAbout };
+        } else {
+            console.log('Not C4TabbedHeader');
+        }
+        // const datahead = data.header?.as(YTNodes.C4TabbedHeader);
+        // const abouthead = about?.as(YTNodes.AboutChannel);
+        // const filterred = {
+        //     picture: data?.metadata.avatar,
+        //     banner: datahead?.banner,
+        //     subscribers: datahead?.subscribers?.text,
+        //     videos: datahead?.videos_count?.text,
+        //     is_verified: datahead?.author.is_verified,
+        //     is_membership: !datahead?.sponsor_button?.is_disabled,
+        // };
+        // const filterredAbout = {
+        //     views_count: abouthead.metadata?.view_count,
+        //     joined_date: abouthead.metadata?.joined_date?.text,
+        //     country: abouthead.metadata?.country,
+        //     description: abouthead.metadata?.description,
+        //     links: abouthead.metadata?.links,
+        // };
+
+        // return { ...filterred, ...filterredAbout };
     } catch (err) {
         console.log(err);
     }
