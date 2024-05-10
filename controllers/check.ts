@@ -8,7 +8,7 @@ export async function check(req: Request, res: Response, next: NextFunction) {
 
     try {
         if ((link as string).startsWith('https://')) {
-            const ch = await useChannelGetter(link as string);
+            const { channel: ch } = await useChannelGetter(link as string);
             const tabbed = ch.header?.as(YTNodes.C4TabbedHeader);
 
             res.status(200).send({
@@ -19,7 +19,7 @@ export async function check(req: Request, res: Response, next: NextFunction) {
             });
         } else {
             const parsed = `https://youtube.com/${link}`;
-            const ch = await useChannelGetter(parsed);
+            const { channel: ch } = await useChannelGetter(parsed);
             const tabbed = ch.header?.as(YTNodes.C4TabbedHeader);
 
             res.status(200).send({
