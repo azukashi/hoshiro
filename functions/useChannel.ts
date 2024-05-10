@@ -1,6 +1,5 @@
 import { Innertube } from 'youtubei.js';
 
-// @ts-ignore
 export const useChannelGetter = async (url: string) => {
     const innerTube = await Innertube.create();
     const resolved = await innerTube.resolveURL(url);
