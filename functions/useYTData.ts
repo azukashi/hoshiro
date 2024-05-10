@@ -26,7 +26,7 @@ export const useYTData = async (handle: string, useId?: boolean) => {
 
             return { ...filterred, ...filterredAbout };
         } else {
-            console.log('Not C4TabbedHeader');
+            throw new Error('Header is not C4TabbedHeader');
         }
         // const datahead = data.header?.as(YTNodes.C4TabbedHeader);
         // const abouthead = about?.as(YTNodes.AboutChannel);
