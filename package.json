@@ -11,7 +11,7 @@
   "author": "Falcxxdev",
   "license": "MIT",
   "dependencies": {
-    "axios": "1.6.8",
+    "axios": "1.7.2",
     "bcryptjs": "2.4.3",
     "cookie-parser": "1.4.6",
     "cors": "2.8.5",
@@ -19,7 +19,7 @@
     "express-jwt": "8.4.1",
     "http-errors": "2.0.0",
     "jsonwebtoken": "9.0.2",
-    "mongoose": "8.3.3",
+    "mongoose": "8.4.3",
     "morgan": "1.10.0",
     "supertest": "7.0.0",
     "youtubei.js": "9.4.0"
@@ -32,9 +32,9 @@
     "@types/jsonwebtoken": "9.0.6",
     "@types/morgan": "1.9.9",
     "@types/supertest": "6.0.2",
-    "bun-types": "1.1.6",
+    "bun-types": "1.1.16",
     "dotenv": "16.4.5",
-    "typescript": "5.4.5"
+    "typescript": "5.5.2"
   },
   "prettier": {
     "tabWidth": 4,
